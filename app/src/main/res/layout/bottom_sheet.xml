@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
     android:id="@+id/bottom_sheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary"
     android:gravity="center_horizontal"
+    android:background="@color/colorPrimary"
     android:paddingTop="30dp"
     android:paddingBottom="30dp">
 
@@ -24,9 +25,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/profile"
+            android:text="Profile"
             android:textColor="@android:color/white"
-            android:textSize="20sp" />
+            android:textSize="20dp" />
 
     </LinearLayout>
 
@@ -46,9 +47,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/camera_filter"
+            android:text="Camera Filter"
             android:textColor="@android:color/white"
-            android:textSize="20sp" />
+            android:textSize="20dp" />
 
     </LinearLayout>
 
@@ -68,9 +69,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ar_camera"
+            android:text="AR Camera"
             android:textColor="@android:color/white"
-            android:textSize="20sp" />
+            android:textSize="20dp" />
 
     </LinearLayout>
 
@@ -90,9 +91,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/share"
+            android:text="Share"
             android:textColor="@android:color/white"
-            android:textSize="20sp" />
+            android:textSize="20dp" />
 
     </LinearLayout>
 

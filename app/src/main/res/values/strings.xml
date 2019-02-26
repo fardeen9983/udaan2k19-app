@@ -1,14 +1,3 @@
 <resources>
     <string name="app_name">Udaan</string>
-
-    <string name="profile">Profile</string>
-    <string name="camera_filter">Camera Filter</string>
-    <string name="ar_camera">AR Camera</string>
-    <string name="share">Share</string>
-    <string name="event_category">Event Category</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="login">LOGIN</string>
-    <string name="guest">GUEST</string>
-    <string name="forgot_pass">Forgot Password?</string>
 </resources>
