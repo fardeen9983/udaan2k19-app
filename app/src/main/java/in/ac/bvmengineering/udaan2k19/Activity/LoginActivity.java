@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String phoneT = phone.getText().toString();
+                final String phoneT = phone.getText().toString();
                 String passT = password.getText().toString();
                 if (phoneT.isEmpty())
                     phone.setError("Enter a Phone no");
@@ -80,9 +80,10 @@ public class LoginActivity extends AppCompatActivity {
                                 String token = response.optString("token");
                                 Preference preference = PowerPreference.getDefaultFile();
                                 preference.putString("token", token);
-                                preference.putBoolean("loggedIn", true);
-                                Toast.makeText(getApplicationContext(), token, Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
+                                preference.putBoolean("loggedIn", false);
+                                //Toast.makeText(getApplicationContext(), token, Toast.LENGTH_LONG).show();
+                                Intent intent = new Intent(LoginActivity.this, PhoneAuthActivity.class);
+                                intent.putExtra("phone", "+91" + phoneT);
                                 startActivity(intent);
                                 finish();
                             } else {

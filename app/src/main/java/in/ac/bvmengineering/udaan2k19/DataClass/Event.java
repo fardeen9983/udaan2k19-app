@@ -12,6 +12,13 @@ public class Event implements Serializable {
     private String tagLine;
     @SerializedName("entryFee")
     private int fees;
+    @SerializedName("notes")
+    private String notes;
+
+    public String getNotes() {
+        return notes;
+    }
+
     @SerializedName("_id")
     private String id;
     @SerializedName("department")

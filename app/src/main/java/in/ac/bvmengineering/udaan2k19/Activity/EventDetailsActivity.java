@@ -20,6 +20,7 @@ public class EventDetailsActivity extends AppCompatActivity {
     TextView fees, name, tag;
     RecyclerView managerRecyclerView;
     EventManagerAdapter eventManagerAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +42,10 @@ public class EventDetailsActivity extends AppCompatActivity {
         StringBuilder temp = new StringBuilder();
         for (int i = 0; i < rounds.size(); i++) {
             temp.append("Round ").append(i + 1).append(":\n").append(rounds.get(i)).append("\n\n");
+        }
+        if (event.getNotes() != null) {
+            String x = temp.toString() + "Notes :\n" + event.getNotes();
+            temp = new StringBuilder(temp);
         }
         roundDetails = findViewById(R.id.round_text);
         roundDetails.setText(temp);

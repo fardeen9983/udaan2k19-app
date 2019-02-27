@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Activity.EventListActivity"></activity>
+        <activity android:name=".Activity.PhoneAuthActivity"></activity>
+        <activity android:name=".Activity.EventListActivity" />
         <activity android:name=".Activity.EventDetailsActivity" />
         <activity android:name=".Activity.LoginActivity" />
         <activity android:name=".Activity.EventCategoryActivity" />
