@@ -12,7 +12,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.preference.PowerPreference;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import in.ac.bvmengineering.udaan2k19.Adapter.EventCategoryAdapter;
 import in.ac.bvmengineering.udaan2k19.DataClass.EventCategory;
@@ -25,7 +28,7 @@ public class EventCategoryActivity extends AppCompatActivity {
     android.support.v7.widget.Toolbar toolbar;
     BottomPanel bottomPanel;
     Dialog bottomPanelView;
-    RecyclerView eventCatagoryRecyclerView;
+    RecyclerView eventCategoryRecyclerView;
     ArrayList<EventCategory> eventCategoryArrayList = new ArrayList<>();
     EventCategoryAdapter eventCategoryAdapter;
 
@@ -40,27 +43,22 @@ public class EventCategoryActivity extends AppCompatActivity {
         toolbar.setTitle("Event Category");
         setSupportActionBar(toolbar);
 
-        eventCatagoryRecyclerView = findViewById(R.id.event_catagory_list);
-        eventCatagoryRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        eventCategoryRecyclerView = findViewById(R.id.event_catagory_list);
+        eventCategoryRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
-        eventCatagoryRecyclerView.addItemDecoration(dividerItemDecoration);
+        eventCategoryRecyclerView.addItemDecoration(dividerItemDecoration);
 
-        eventCategoryArrayList.add(new EventCategory(R.drawable.builder_of_azkaban, "Builder Of Azkaban"));
-        eventCategoryArrayList.add(new EventCategory(R.drawable.chamber_of_coders, "Chamber Of Coders"));
-        eventCategoryArrayList.add(new EventCategory(R.drawable.order_of_ohms, "Order Of Ohms"));
-        eventCategoryArrayList.add(new EventCategory(R.drawable.automotive_philosopher, "Auto Motive Philosopher"));
-        eventCategoryArrayList.add(new EventCategory(R.drawable.half_wave_prince, "Half Wave Prince"));
-        eventCategoryArrayList.add(new EventCategory(R.drawable.mad_hollows, "M.A.D Hollows"));
-        eventCategoryArrayList.add(new EventCategory(R.drawable.scamander_suitcase, "Scamander Suitcase's"));
-
+        EventCategory[] events = PowerPreference.getDefaultFile().getObject("eventCategories", EventCategory[].class, null);
+        eventCategoryArrayList.addAll(Arrays.asList(events));
         eventCategoryAdapter = new EventCategoryAdapter(EventCategoryActivity.this, eventCategoryArrayList, new OnCategoryItemClickListener() {
             @Override
             public void onCategoryItemClick(EventCategory eventCategory) {
                 Intent intent = new Intent(getApplicationContext(), EventListActivity.class);
+                intent.putExtra("cat", eventCategory);
                 startActivity(intent);
             }
         });
-        eventCatagoryRecyclerView.setAdapter(eventCategoryAdapter);
+        eventCategoryRecyclerView.setAdapter(eventCategoryAdapter);
 
 
     }

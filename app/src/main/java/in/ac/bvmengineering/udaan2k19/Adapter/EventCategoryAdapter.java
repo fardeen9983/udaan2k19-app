@@ -19,12 +19,12 @@ import in.ac.bvmengineering.udaan2k19.R;
 
 public class EventCategoryAdapter extends RecyclerView.Adapter<EventCategoryAdapter.EventCategoryViewHolder> {
     private Activity context;
-    private ArrayList<EventCategory> eventCatagories;
+    private ArrayList<EventCategory> eventCategories;
     private final OnCategoryItemClickListener listener;
 
     public EventCategoryAdapter(Activity context, ArrayList<EventCategory> eventCategories, OnCategoryItemClickListener listener) {
         this.context = context;
-        this.eventCatagories = eventCategories;
+        this.eventCategories = eventCategories;
         this.listener = listener;
     }
 
@@ -47,12 +47,12 @@ public class EventCategoryAdapter extends RecyclerView.Adapter<EventCategoryAdap
 
     @Override
     public void onBindViewHolder(@NonNull EventCategoryViewHolder eventCategoryViewHolder, int position) {
-        eventCategoryViewHolder.bind(eventCatagories.get(position), listener);
+        eventCategoryViewHolder.bind(eventCategories.get(position), listener);
     }
 
     @Override
     public int getItemCount() {
-        return eventCatagories.size();
+        return eventCategories.size();
     }
 
     @Override
@@ -81,7 +81,7 @@ public class EventCategoryAdapter extends RecyclerView.Adapter<EventCategoryAdap
             }
         }
 
-        public void bind(final EventCategory eventCategory, final OnCategoryItemClickListener listener) {
+        void bind(final EventCategory eventCategory, final OnCategoryItemClickListener listener) {
             eventCategoryName.setText(eventCategory.getName());
             GlideApp
                     .with(context)

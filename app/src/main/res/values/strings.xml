@@ -7,4 +7,14 @@
     <string name="login">LOGIN</string>
     <string name="guest">GUEST</string>
     <string name="forgot_pass">Forgot Password?</string>
+
+
+    <string name="cat_civil">Builders Of Azkaban</string>
+    <string name="cat_cp_it">Chamber Of Coders</string>
+    <string name="cat_ec_el">Half Wave Prince</string>
+    <string name="cat_non_tech">Scamander\'s Suitcase </string>
+    <string name="cat_ee">Order Of Ohms</string>
+    <string name="cat_cultural">M.A.D Hollows</string>
+    <string name="cat_mech_prod">AutoMotive Philosopher</string>
+
 </resources>
