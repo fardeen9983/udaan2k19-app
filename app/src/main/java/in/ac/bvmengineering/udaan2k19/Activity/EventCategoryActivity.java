@@ -1,6 +1,7 @@
-package in.ac.bvmengineering.udaan2k19;
+package in.ac.bvmengineering.udaan2k19.Activity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,12 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import java.util.ArrayList;
+
+import in.ac.bvmengineering.udaan2k19.Adapter.EventCategoryAdapter;
+import in.ac.bvmengineering.udaan2k19.DataClass.EventCategory;
+import in.ac.bvmengineering.udaan2k19.Interface.OnCategoryItemClickListener;
+import in.ac.bvmengineering.udaan2k19.Misc.BottomPanel;
+import in.ac.bvmengineering.udaan2k19.R;
 
 public class EventCategoryActivity extends AppCompatActivity {
 
@@ -46,8 +53,16 @@ public class EventCategoryActivity extends AppCompatActivity {
         eventCategoryArrayList.add(new EventCategory(R.drawable.mad_hollows, "M.A.D Hollows"));
         eventCategoryArrayList.add(new EventCategory(R.drawable.scamander_suitcase, "Scamander Suitcase's"));
 
-        eventCategoryAdapter = new EventCategoryAdapter(EventCategoryActivity.this, eventCategoryArrayList);
+        eventCategoryAdapter = new EventCategoryAdapter(EventCategoryActivity.this, eventCategoryArrayList, new OnCategoryItemClickListener() {
+            @Override
+            public void onCategoryItemClick(EventCategory eventCategory) {
+                Intent intent = new Intent(getApplicationContext(), EventListActivity.class);
+                startActivity(intent);
+            }
+        });
         eventCatagoryRecyclerView.setAdapter(eventCategoryAdapter);
+
+
     }
 
     @Override

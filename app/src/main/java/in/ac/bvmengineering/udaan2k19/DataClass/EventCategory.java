@@ -1,4 +1,4 @@
-package in.ac.bvmengineering.udaan2k19;
+package in.ac.bvmengineering.udaan2k19.DataClass;
 
 public class EventCategory {
     private int image;

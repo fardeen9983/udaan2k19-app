@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="in.ac.bvmengineering.udaan2k19">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,10 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".EventCategoryActivity" />
-        <activity android:name=".ForgotPassword" />
-        <activity android:name=".IntroActivity">
+        <activity android:name=".Activity.EventListActivity"></activity>
+        <activity android:name=".Activity.EventDetailsActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.EventCategoryActivity" />
+        <activity android:name=".Activity.ForgotPassword" />
+        <activity android:name=".Activity.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,6 +27,5 @@
             </intent-filter>
         </activity>
     </application>
-
 
 </manifest>

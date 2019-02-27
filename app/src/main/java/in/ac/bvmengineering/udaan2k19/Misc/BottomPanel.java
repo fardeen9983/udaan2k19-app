@@ -1,4 +1,4 @@
-package in.ac.bvmengineering.udaan2k19;
+package in.ac.bvmengineering.udaan2k19.Misc;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -7,6 +7,8 @@ import android.view.Gravity;
 import android.view.WindowManager;
 
 import java.util.Objects;
+
+import in.ac.bvmengineering.udaan2k19.R;
 
 @SuppressLint("ValidFragment")
 public class BottomPanel {

@@ -5,20 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Activity.EventCategoryActivity">
+    tools:context=".Activity.EventListActivity">
 
     <include layout="@layout/tool_bar" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/event_catagory_list"
+        android:id="@+id/event_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:focusable="true"
         android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="5dp"
+        android:focusable="true"
         app:layout_constraintTop_toTopOf="parent">
 
     </android.support.v7.widget.RecyclerView>
-
 </android.support.constraint.ConstraintLayout>

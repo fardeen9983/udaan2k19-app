@@ -1,4 +1,4 @@
-package in.ac.bvmengineering.udaan2k19;
+package in.ac.bvmengineering.udaan2k19.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,6 +26,9 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
+import in.ac.bvmengineering.udaan2k19.Misc.VolleySingleton;
+import in.ac.bvmengineering.udaan2k19.R;
+
 public class LoginActivity extends AppCompatActivity {
 
     Button login, guest;
@@ -48,6 +51,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 firebaseAuth.signInAnonymously();
+                startActivity(new Intent(getApplicationContext(), EventCategoryActivity.class));
             }
         });
 
