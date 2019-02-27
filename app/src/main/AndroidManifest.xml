@@ -4,6 +4,7 @@
     package="in.ac.bvmengineering.udaan2k19">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"

@@ -108,7 +108,7 @@ public class IntroActivity extends AppCompatActivity {
                             else
                                 intent = new Intent(getApplicationContext(), LoginActivity.class);
                             startActivity(intent);
-                            finish();
+                            finishAfterTransition();
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }

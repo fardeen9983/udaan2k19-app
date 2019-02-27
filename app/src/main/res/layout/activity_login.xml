@@ -12,7 +12,6 @@
         android:hint="@string/phone_no"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:inputType="phone"
         android:maxLines="1"
         android:nextFocusDown="@id/password"
         android:paddingEnd="15dp"

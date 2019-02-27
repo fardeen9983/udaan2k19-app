@@ -3,14 +3,15 @@ package in.ac.bvmengineering.udaan2k19.DataClass;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
-import java.util.Arrays;
-import java.util.List;
+import java.util.ArrayList;
+
 
 public class Event implements Serializable {
 
     @SerializedName("tagline")
     private String tagLine;
-
+    @SerializedName("entryFee")
+    private int fees;
     @SerializedName("_id")
     private String id;
     @SerializedName("department")
@@ -20,21 +21,13 @@ public class Event implements Serializable {
     @SerializedName("eventType")
     private String type;
     @SerializedName("rounds")
-    private String[] rounds;
+    private ArrayList<String> rounds;
     @SerializedName("managers")
-    private List<Manager> managers;
+    private ArrayList<Manager> managers;
 
-    @android.support.annotation.NonNull
-    @Override
-    public String toString() {
-        return "Event{" +
-                "id='" + id + '\'' +
-                ", dept='" + dept + '\'' +
-                ", name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", rounds=" + Arrays.toString(rounds) +
-                ", managers=" + managers +
-                '}';
+
+    public int getFees() {
+        return fees;
     }
 
     public String getTagLine() {
@@ -53,40 +46,30 @@ public class Event implements Serializable {
         return name;
     }
 
+    public ArrayList<String> getRounds() {
+        return rounds;
+    }
+
     public String getType() {
         return type;
     }
 
-    public String[] getRounds() {
-        return rounds;
+    @Override
+    public String toString() {
+        return "Event{" +
+                "tagLine='" + tagLine + '\'' +
+                ", fees=" + fees +
+                ", id='" + id + '\'' +
+                ", dept='" + dept + '\'' +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", rounds=" + rounds +
+                ", managers=" + managers +
+                '}';
     }
 
-    public List<Manager> getManagers() {
+    public ArrayList<Manager> getManagers() {
         return managers;
-    }
-
-    class Manager implements Serializable {
-        @SerializedName("name")
-        private String name;
-        @SerializedName("phone")
-        private String phone;
-
-        public String getName() {
-            return name;
-        }
-
-        public String getPhone() {
-            return phone;
-        }
-
-        @android.support.annotation.NonNull
-        @Override
-        public String toString() {
-            return "Manager{" +
-                    "name='" + name + '\'' +
-                    ", phone='" + phone + '\'' +
-                    '}';
-        }
     }
 
 }

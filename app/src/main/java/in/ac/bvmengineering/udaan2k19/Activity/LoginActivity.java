@@ -52,6 +52,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 firebaseAuth.signInAnonymously();
                 startActivity(new Intent(getApplicationContext(), MenuActivity.class));
+                finishAfterTransition();
+
             }
         });
 
