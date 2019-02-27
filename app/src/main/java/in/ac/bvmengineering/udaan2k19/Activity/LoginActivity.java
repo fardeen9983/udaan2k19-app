@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 firebaseAuth.signInAnonymously();
-                startActivity(new Intent(getApplicationContext(), EventCategoryActivity.class));
+                startActivity(new Intent(getApplicationContext(), MenuActivity.class));
             }
         });
 
@@ -80,7 +80,7 @@ public class LoginActivity extends AppCompatActivity {
                                 preference.putString("token", token);
                                 preference.putBoolean("loggedIn", true);
                                 Toast.makeText(getApplicationContext(), token, Toast.LENGTH_LONG).show();
-                                Intent intent = new Intent(LoginActivity.this, EventCategoryActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
                                 startActivity(intent);
                                 finish();
                             } else {
