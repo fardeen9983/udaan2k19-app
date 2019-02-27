@@ -1,10 +1,11 @@
 package in.ac.bvmengineering.udaan2k19.DataClass;
 
+import android.support.annotation.NonNull;
+
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-
 
 public class Event implements Serializable {
 
@@ -14,11 +15,6 @@ public class Event implements Serializable {
     private int fees;
     @SerializedName("notes")
     private String notes;
-
-    public String getNotes() {
-        return notes;
-    }
-
     @SerializedName("_id")
     private String id;
     @SerializedName("department")
@@ -32,7 +28,9 @@ public class Event implements Serializable {
     @SerializedName("managers")
     private ArrayList<Manager> managers;
 
-
+    public String getNotes() {
+        return notes;
+    }
     public int getFees() {
         return fees;
     }
@@ -61,6 +59,7 @@ public class Event implements Serializable {
         return type;
     }
 
+    @NonNull
     @Override
     public String toString() {
         return "Event{" +

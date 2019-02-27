@@ -29,6 +29,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.MenuActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.AboutActivity" />
     </application>
 
 </manifest>

@@ -10,15 +10,22 @@ import in.ac.bvmengineering.udaan2k19.R;
 
 public class MenuActivity extends AppCompatActivity {
 
-    Button eventList;
+    Button eventList, profileButton, aboutButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
+        aboutButton = findViewById(R.id.about_button);
         eventList = findViewById(R.id.events_button);
+        profileButton = findViewById(R.id.profile_button);
 
+        aboutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), AboutActivity.class));
+            }
+        });
         eventList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,6 +33,14 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+            }
+        });
+
 
 
     }
