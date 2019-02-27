@@ -7,16 +7,22 @@
     android:background="@drawable/login_background"
     tools:context=".LoginActivity">
 
-    <android.support.v7.widget.AppCompatEditText
-        android:id="@+id/username"
+    <EditText
+        android:id="@+id/phone"
+        android:hint="@string/phone_no"
         android:layout_width="match_parent"
         android:layout_height="45dp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:nextFocusDown="@id/password"
+        android:paddingEnd="15dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/textbox"
         android:paddingStart="15dp"
+        android:singleLine="true"
         android:textColor="@color/brownLight"
         android:textColorHint="@color/brownLight"
         android:textCursorDrawable="@color/brown"
@@ -25,10 +31,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:hint="Username"
+        android:textAllCaps="false"
         app:layout_constraintVertical_bias="0.6" />
 
-    <android.support.v7.widget.AppCompatEditText
+    <EditText
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingEnd="15dp"
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -37,14 +47,15 @@
         android:layout_marginEnd="32dp"
         android:background="@drawable/textbox"
         android:paddingStart="15dp"
+        android:singleLine="true"
         android:textColor="@color/brown"
         android:textColorHint="@color/brownLight"
         android:textCursorDrawable="@color/brown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:hint="Password"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
 
     <Button
         android:id="@+id/login_button"
@@ -54,22 +65,22 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/button_press_style"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:textColor="@color/brown"
         android:textSize="32sp"
-        app:layout_constraintEnd_toStartOf="@+id/register_button"
+        app:layout_constraintEnd_toStartOf="@+id/guest_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <Button
-        android:id="@+id/register_button"
+        android:id="@+id/guest_button"
         android:layout_width="130dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="36dp"
         android:background="@drawable/button"
-        android:text="REGISTER"
+        android:text="@string/guest"
         android:textColor="@color/brown"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,13 +95,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Forgot Password?"
+        android:text="@string/forgot_pass"
         android:textAlignment="center"
         android:textColor="@color/brown"
-        android:textSize="16dp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register_button"
+        app:layout_constraintTop_toBottomOf="@+id/guest_button"
         app:layout_constraintVertical_bias="0.20" />
 </android.support.constraint.ConstraintLayout>

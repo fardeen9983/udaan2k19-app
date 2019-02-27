@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultMap>
+    <entry>
+        <key>loggedIN</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <kry>token</kry>
+        <value>Empty</value>
+    </entry>
+    <entry>
+        <key>first_time</key>
+        <key>true</key>
+    </entry>
+</defaultMap>

@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="in.ac.bvmengineering.udaan2k19">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

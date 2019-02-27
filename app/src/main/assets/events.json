@@ -1,0 +1,1530 @@
+[
+  {
+    "_id": "5c6ab005a034092f8c482ed2",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Potterhead",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Darshan Rathod",
+        "phone": "9714413435"
+      },
+      {
+        "name": "Sarita Chaudhary",
+        "phone": "7096315197"
+      },
+      {
+        "name": "Dharmik",
+        "phone": "9104645348"
+      }
+    ],
+    "rounds": [
+      "Quiz on Wizarding World (Harry Potter & Fantastic Beasts)",
+      "It's about your creativity The team is said to be one person (like fictional character from wizarding world) and write everything about that person like Hogwarts house, wand, favourite class, spells, beasts, everything they know.",
+      "Find the Horcruxes hints will be given for each horcrux. There are Seven horcruxes when they find one horcrux they should say atleast two points about that horcrux and the second hint will be given. Similar for all seven. Collector team of all horcruxes is winner if any of the team cannot collect all horcruxes, the winner is the one who having more horcruxes."
+    ],
+    "tagline": "Swish and flick your wands..!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ed3",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Guru",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Simran Malhotra",
+        "phone": "9601498897"
+      },
+      {
+        "name": "Shreya Jarsania",
+        "phone": "9662011073"
+      },
+      {
+        "name": "Akshar Patel",
+        "phone": "9327932117"
+      }
+    ],
+    "rounds": [
+      "Do odd jobs or anything entertaining and collect money as much as possible within time limit and submit at the end. ",
+      "Collect the things mentioned in a list in 30 mins. ",
+      "Using virtual money bet on the events and prove your guessing ability."
+    ],
+    "tagline": "Touch the sky!! ",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ed4",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Sherlocked! ",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Dhruvika Vankar",
+        "phone": "9925105258"
+      },
+      {
+        "name": "Saralita Nair",
+        "phone": "7016233939"
+      },
+      {
+        "name": "Rajdeep Solanki",
+        "phone": "8153084929"
+      }
+    ],
+    "rounds": [
+      "A ppt based picture-questionnaire and similar puzzles to test observation and deduction skills.",
+      "Treasure hunt using cryptic clues ",
+      "Finalists will be made to impersonate sherlock and watson's astute detective skills to solve mini mysteries."
+    ],
+    "tagline": "It isn't as elementary as you think!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ed5",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Roadies ",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Prachi",
+        "phone": "8200785431"
+      },
+      {
+        "name": "Shephali Mishra",
+        "phone": "9898764604"
+      },
+      {
+        "name": "Avinash",
+        "phone": "9428212448"
+      }
+    ],
+    "rounds": [
+      "In this round all the participants would be divided into teams of two / three. These teams would have to overcome certain hurdles as a group. On the basis of their performance, top 15-20 teams would be selected for the next round.",
+      "This round is basically based on individual’s capability to perform physically and mentally yet entertain exceptionally in the given scenario. From these participants top 10-15 participant would be selected for the next round.",
+      "This would be a jury based round. Every challenger now will have to face a panel of three to four judges. Here we would be looking forward to a person who gives wittiest, humorous yet the most sensible answers. "
+    ],
+    "tagline": "Roadie banega..?",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ed6",
+    "participants": [],
+    "department": "civil",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Eco-Arena",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "INSIYA GARBADA ",
+        "phone": "9427115228"
+      },
+      {
+        "name": "AMIT MALI",
+        "phone": "8733834280"
+      },
+      {
+        "name": "STUTI PARMAR",
+        "phone": "9727855507"
+      }
+    ],
+    "rounds": [
+      "Quiz on basic civil engineering",
+      "Treasure hunt: Participants have to decode the clue and find out the materials ,teams who have found the material will be given set of riddle and they have to find problem statement.",
+      "Participants have to do presentation on how to make green building, innovative solutions considering various environmental and economical aspects with materials they have found in treasure hunt."
+    ],
+    "tagline": "LET’S SAVE THE WORLD !!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ed7",
+    "participants": [],
+    "department": "cpit",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "MasterWare",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Sandip Yadav",
+        "phone": "9054735522"
+      },
+      {
+        "name": "Neha Chopra",
+        "phone": "9033308708"
+      },
+      {
+        "name": "Nishith Goswami",
+        "phone": "9662735067"
+      }
+    ],
+    "rounds": [
+      "Puzzle Round i.e. Puzzles, crosswords and blanks based on the hardware components.",
+      "Buzzer Round. Hardware component will be displayed on ppt for about 40 sec, among participants who will press buzzer first and recongize correcty will get marks; if fail to recognize he/she will loose marks.If one participant get 3 successive correct answers; he/she wil not be allowed to give answer in next question.",
+      "Arduino Programming Expert talk (20-30 minutes) on arduino and then 2-3 task (Programming) will be given for implementing on Arduino."
+    ],
+    "tagline": "Play Hard with Hardware!",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ed8",
+    "participants": [],
+    "department": "civil",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 50,
+    "eventName": "Designer's Market",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Abha Parida ",
+        "phone": "7567662550"
+      },
+      {
+        "name": "Joel Paul",
+        "phone": "9624360114"
+      },
+      {
+        "name": "Tuhin Mavani",
+        "phone": "9879636508"
+      }
+    ],
+    "rounds": [
+      "Picture perception:- Many images related to building planning and construction, building materials in the form of slide show Will be shown to the participants and they have to write the answer according to picture. ",
+      "Participants will be given a Xerox in which they  will have the different requirements in the house(eg. No. Of rooms, balcony, duplex or bungalow, Garden, outside view etc) and they Have to draw the plan of the house on the sheet as per the requirements.  Judging criteria :- Planning rules will be judged, circulation, and designed as per requirement or not.",
+      "The house designed in round 2 they will have to sell that house to the jury by making 3D model with help of thermocol and various material based on the planned they drawn in round 2.  Judging criteria:-  How well they explained the house and convinced the jury, money factor, how attractively they create the model with precision of dimension."
+    ],
+    "tagline": "THINK PLOT AND SELL.",
+    "teamSize": 3,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ed9",
+    "participants": [],
+    "department": "ecel",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "ELECTRO-SNOOPER ",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Kirti Tandon",
+        "phone": "7435832449"
+      },
+      {
+        "name": "Vashisth Vaghela",
+        "phone": "9328334303"
+      },
+      {
+        "name": "Aditya Nair",
+        "phone": "8200920900"
+      }
+    ],
+    "rounds": [
+      "Presentation based quiz: different statements and pictures will be on screen, the participants have to identify the fault in the given circuit and statement and give their opinion on the same.",
+      "Identify the given circuit and describe the uses of the same. At the same time questions will be asked related to the circuit and cumulative marks for both will be given that will lead them to next round.",
+      "The students have to implement the given circuit on breadboard in allocated time."
+    ],
+    "tagline": "“the last one standing”",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482eda",
+    "participants": [],
+    "department": "ee",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 50,
+    "eventName": "Electro Musiciano",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Neel Patel",
+        "phone": "9712570166"
+      },
+      {
+        "name": "Vaibhav Yagneshwar",
+        "phone": "7383645136"
+      },
+      {
+        "name": "Harsh Patel",
+        "phone": "8758128258"
+      }
+    ],
+    "rounds": [
+      "Expert lecture on 555 timer, electronic components used, frequency equations, scaling based on Octaves and making connections on breadboard to make musical instrument and   Quiz will be conducted based on information gathered from expert lecture.",
+      "Selected teams will be provided with necessary electronic components required to make a musical instrument along with which buzzer based quiz regarding participants technical knowledge will be conducted. ",
+      "Prepare a business plan presentation to sell your musical instrument to the investors. This round will test participants marketing, convincing, entrepreneurial skills. "
+    ],
+    "tagline": "“Driven by the Power of sound”",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482edb",
+    "participants": [],
+    "department": "ecel",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 50,
+    "eventName": "Er. Delving",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Isha Vakil",
+        "phone": "9601517170"
+      },
+      {
+        "name": "Upasana Chatterjee",
+        "phone": "9512520052"
+      },
+      {
+        "name": "Jinish Shah",
+        "phone": "9409402209"
+      }
+    ],
+    "rounds": [
+      "Technical Clues will be given to the team using QR codes. They have to solve and reach to the final destination and unlock the treasure."
+    ],
+    "tagline": "Clear vision holds the clue!!!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482edc",
+    "participants": [],
+    "department": "civil",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 60,
+    "eventName": "Dam' it!",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Divyarajsinh Jadeja",
+        "phone": "9428258879"
+      },
+      {
+        "name": "Maulik Vithalapara",
+        "phone": "9913336233"
+      },
+      {
+        "name": "Rakshit Bhalodiya",
+        "phone": "9714571103"
+      }
+    ],
+    "rounds": [
+      "Dam construction with the help of  soil, water and geogrid material provided.  Dimension will be  provide on the spot."
+    ],
+    "tagline": "IMPEDE THE SEEPAGE",
+    "teamSize": 3,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482edd",
+    "participants": [],
+    "department": "civil",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 50,
+    "eventName": "Roller Coaster",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Jay Hodar",
+        "phone": "8200248110"
+      },
+      {
+        "name": "Chetan Gondaliya",
+        "phone": "9512316432"
+      },
+      {
+        "name": "Kaushik Radadiya",
+        "phone": "7405769330"
+      }
+    ],
+    "rounds": [
+      "Build a model of roller coaster using candy stick, glue, thermocal sheet, thin cardboard sheet. A marble will be freely fall on roller coaster and the marble will have to cover through the circular path."
+    ],
+    "tagline": "LET'S ENJOY THE RIDE!!!",
+    "teamSize": 3,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ede",
+    "participants": [],
+    "department": "ecel",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 120,
+    "eventName": "Track Mania",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Sanjit Rayat",
+        "phone": "8866662698"
+      },
+      {
+        "name": "Rushabh",
+        "phone": "8000925538"
+      },
+      {
+        "name": "Jenish",
+        "phone": "8866517259"
+      },
+      {
+        "name": "Rakshit",
+        "phone": "9913434538"
+      }
+    ],
+    "rounds": [
+      "Path level : Easy Straight Drag race. The fastest car wins. Race will be between two teams. Winner gets selected to the next round",
+      "Path level: Medium Medium obstacles and tracks will be present in Paths. One team at a time will race on a Path, selection based on the time taken for completion",
+      " Difficult Track with tasks and obstacles"
+    ],
+    "tagline": "\"Beat the best\"",
+    "teamSize": 2,
+    "notes": "Rule Book:\n\na) Robot must be in strict dimensions of 20cm(L)*25cm(B)*20cm(H).\nb) Weight of the bot must not exceed 8 Kgs.\nc) The bot must be Water Proof and Fire Resistant.\nd) Bot must be Battery powered and if it is adapter powered then the participant must take care of the power source and all Nothing will be provided by our side.\ne) If the bot is battery powered then it must not exceed the rating of 13V - 4A.\nf) If anyone found misbehaving will be disqualified."
+  },
+  {
+    "_id": "5c6ab005a034092f8c482edf",
+    "participants": [],
+    "department": "mechProd",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 50,
+    "eventName": "Auto-Ignito",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Mayur Panchal",
+        "phone": "8487974299"
+      },
+      {
+        "name": "Kishan Solanki",
+        "phone": "9904708475"
+      },
+      {
+        "name": "Yash Ubhadiya",
+        "phone": "7046973699"
+      }
+    ],
+    "rounds": [
+      "Pen-paper based quiz related to I.C. Engine & Automobile",
+      "Reverse Engineering:- Process planning of given products with step by step operation in reverse sequence",
+      "Disassemble and assemble I.C. Engine and write name and functions of each part disassembled"
+    ],
+    "tagline": "Power the world with Internal Energy",
+    "teamSize": 3,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee0",
+    "participants": [],
+    "department": "cpit",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "WebiClan",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Bhavyank Vithalani",
+        "phone": "9418982816"
+      },
+      {
+        "name": "Kashika Ramnani",
+        "phone": "9428136774"
+      },
+      {
+        "name": "Riddhi Nagrecha",
+        "phone": "8141489750"
+      }
+    ],
+    "rounds": [
+      "Basic pen paper based quiz on HTML, CSS and PHP concepts.",
+      "Each participant will spin a spinner and gain a definition for which they have to list, define the functionalities, and create a prototype of the respective system using some designing tool. The time limit for this round will be 1.5 hour.",
+      "Participants have to code the functionalities and implement the prototype, in short develop the system in 1.5 hour. Prerequisite: Basic knowledge of PHP and MySQL."
+    ],
+    "tagline": "Curious ui/ux weber.",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee1",
+    "participants": [],
+    "department": "ecel",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 50,
+    "eventName": "Mad Scientist",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Urvi barapatre",
+        "phone": "9724948807"
+      },
+      {
+        "name": "Dhruvin",
+        "phone": "9104330026"
+      },
+      {
+        "name": "Dhwani",
+        "phone": "9427515142"
+      }
+    ],
+    "rounds": [
+      "Simple pen paper based quiz. Questions based on basic principles of science (11th and 12th std).",
+      "Divided in two parts. Part 1: Rapid fire round based on simple science topics. Part 2: Problem statement will be given to each team. The team need to solve that problem using science and get qualified for the final round.",
+      "The Snake and Ladders game where the correct answer to the question will lead you forward while wrong answer will bring you down."
+    ],
+    "tagline": "*Nothing happens untill something moves*",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee2",
+    "participants": [],
+    "department": "ee",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Circuit-e-Ishq ",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Monarch Vyas",
+        "phone": "8866866228"
+      },
+      {
+        "name": "Neel Shah",
+        "phone": "8347463290"
+      },
+      {
+        "name": "Sahil Hirapara",
+        "phone": "9574244641"
+      }
+    ],
+    "rounds": [
+      "Picture perception based technical quiz on electrical basics, based on the score of which  virtual money will be provided to the round 2 qualifying teams.",
+      "Year wise Buzzer Round based on technical skills of participating teams, in which virtual money will be deducted with every wrong answer and vice versa. Virtual money earned can be used for clues and help.",
+      "In this round auction will be conducted on circuits, in which participants will have to bid on the circuits and then buy components according to the circuit design given to them year wise, judging will be based on cost effective and efficient operation of the circuit implemented onto breadboard."
+    ],
+    "tagline": "“Get it, make it, run it”",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee3",
+    "participants": [],
+    "department": "ecel",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Chip-Patrons",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Priya Thakkar ",
+        "phone": "8849437614"
+      },
+      {
+        "name": "Jay Patel",
+        "phone": "8734036148"
+      },
+      {
+        "name": "Ritupriya Nandi ",
+        "phone": "8758867032"
+      }
+    ],
+    "rounds": [
+      "Basic quiz on digital electronics ",
+      "To decode the Boolean equation of the Black Box given to them ",
+      "Implementation of digital block using Verilog/VHDL"
+    ],
+    "tagline": "open the right Gate",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee4",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "SSB",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Parth Gadara",
+        "phone": "9586008238"
+      },
+      {
+        "name": "Nayan Mangukiya",
+        "phone": "9879425992"
+      },
+      {
+        "name": "Sagar Shah",
+        "phone": "9974159067"
+      }
+    ],
+    "rounds": [
+      "Participant will be given several negative words using same words they have to form a positive sentences.",
+      "Participant have to perform physical task such as skipping, crouching, push-up, etc.",
+      "Picture perception in which a blur picture will be shown an have to write a story on what they derive from that picture.",
+      "Personal interview ."
+    ],
+    "tagline": "SERVICE BEFORE SELF",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee5",
+    "participants": [],
+    "department": "ee",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Bomb Rush",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Alok Patel ",
+        "phone": "9099912950"
+      },
+      {
+        "name": "Yash Rana",
+        "phone": "9537433004"
+      },
+      {
+        "name": "Deep Aghera",
+        "phone": "9099192423"
+      }
+    ],
+    "rounds": [
+      "Quiz in the form of Puzzle & Crosswords based on logics, science, mathematics and general electrical & electronic engineering.",
+      "Treasure hunt which will test your knowledge of critical thinking, decision making, basic science & engineering knowledge. Treasure hunt will be conducted in BVM Campus.",
+      "Crack the security system and also diffuse bomb."
+    ],
+    "tagline": "“You will make it only if you crack it”",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee6",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Crazy Cricket",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Bhumit Dhankhara",
+        "phone": "8460009830"
+      },
+      {
+        "name": "Bharat Junjiya",
+        "phone": "9925761943"
+      },
+      {
+        "name": "Kuldip Thoriya",
+        "phone": "9924335395"
+      }
+    ],
+    "rounds": [
+      "Video, audio, picture etc will be shown  and question will be asked, you have to write answer based on your knowledge of cricket.",
+      "Team will be made randomly from the selected team and they will have to play cricket with some crazy rules."
+    ],
+    "tagline": "APNI GAME ,APNA RULE",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee7",
+    "participants": [],
+    "department": "ee",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 20,
+    "eventName": "Ingenious",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Helly Gondalia",
+        "phone": "8141936263"
+      },
+      {
+        "name": "Hardik Parmar",
+        "phone": "7202041378"
+      }
+    ],
+    "rounds": [
+      "Present your innovative ideas in a ppt presentation (slides not more than 5) based on the problem statements provided in the electrical domain. Note: Problem statements will be uploaded on website 3 days prior to Udaan’19.",
+      "GD based on topics of current technical trends and problems in the engineering domain.",
+      "Technical Interview "
+    ],
+    "tagline": "“Awaken the genius within you”",
+    "teamSize": 1,
+    "notes": "Bring your Resume!"
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee8",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Takeshi’s Castle",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Mohit Gadhiya",
+        "phone": "8156032234"
+      },
+      {
+        "name": "Yash Patel",
+        "phone": "7874284997"
+      },
+      {
+        "name": "Arjun Vala",
+        "phone": "9737441030"
+      },
+      {
+        "name": "Drasti Tandel",
+        "phone": "8238809691"
+      }
+    ],
+    "rounds": [
+      "There will be 4 task , judging will be on time per task.",
+      "Here participant's will be divided into team of two . They must have to complete 3 task compulsorily. Performance judging will be on total time taken by them to complete the task.",
+      "Surprise task. Judging will be on total time taken by participant to complete all task."
+    ],
+    "tagline": "“Show your strength and flexibility”",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ee9",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "BVM MUN",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Harsh Desai",
+        "phone": "9714412953"
+      },
+      {
+        "name": "Pranay Sharma",
+        "phone": "9427853499"
+      },
+      {
+        "name": "Ketan Makwana",
+        "phone": "9714986311"
+      }
+    ],
+    "rounds": [
+      "Pen paper quiz based on current affairs and General Knowledge.",
+      "A political debate will be conducted on the political issue and participant teams will have to debate on that particular topic.",
+      "MUN  In which participant will be made delegate of a particular country and he has to present his nation in UN. An issue will be given on with they have to debate and entire house has to come up with a final solution to the issue."
+    ],
+    "tagline": "Are you a true diplomat?",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482eea",
+    "participants": [],
+    "department": "mechProd",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Wizard Graphica",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Huzaifa Pitolwala",
+        "phone": "8866518099"
+      },
+      {
+        "name": "Jaydip Vavdiya",
+        "phone": "9974591662"
+      },
+      {
+        "name": "Digvijay Dodia",
+        "phone": "8849048029"
+      }
+    ],
+    "rounds": [
+      "(a) Expert lecture on CREO Parametric software  (b) Pen-paper based quiz on Engineering Graphics",
+      "A 3D model will be given to participants and they have to draw orthographic view, isometric view on paper and 3D model in CREO Parametric",
+      "Orthographic drawing will be given and participants have to make a 3D model with thermocol sheet"
+    ],
+    "tagline": "A mint of creativity",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482eeb",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Math- πRates",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Jemee Pansuriya",
+        "phone": "9662633645"
+      },
+      {
+        "name": "Siddharth Fultariya",
+        "phone": "9904859080"
+      },
+      {
+        "name": "Dhaval Hingu",
+        "phone": "9574926575"
+      }
+    ],
+    "rounds": [
+      "Team needs to perform some physical activities like playing with  ball, rope skipping, jumping, Running etc. simultaneously they  have to solve some moderate level math and logical questions.",
+      "Two team members are seating opposite to each other facing their  back. One has laptop screen showing some geometrical figure and  needs to narrate it to the other team member and he/she needs to  draw it.",
+      "We will give puzzles to one member of the teams and they need  some numbers to complete puzzles and that numbers will be  distributed randomly to all other members of the teams on the  cards. Member who solving puzzles will get chance based on quick  questioning - answering of basic logical question. During their  term they can ask for numbers from any person if number is  needed then he/she can take it or they can discard it. Next term  will be given based on quick questioning – answering and so on."
+    ],
+    "tagline": "It’s all about fun!!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482eec",
+    "participants": [],
+    "department": "cpit",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Geek-Out-Loud",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Vishali Pandita",
+        "phone": "7490926649"
+      },
+      {
+        "name": "Seby g. Amin",
+        "phone": "9558831052"
+      },
+      {
+        "name": "Vishal Parmar",
+        "phone": "8140848895"
+      }
+    ],
+    "rounds": [
+      "This round will be based on practical knowledge. 5 domains i.e.  C/C++, Web Technologies, Database Management, Python and  Digital Logic will be provided. Participants will have to choose one  domain of their choice and further a problem statement will be  provided which they'll have to implement on PC's or practically  (for DLD). For example : if a participant has chosen C/C++, he'll be  given a question to implement a code in C/C++. ",
+      "Technical paper presentation: the participants have to present a  technical topic related to his domain chosen, through powerpoint  slides. Few topics will be provided and they'll have to choose one  among them. After completing the presentation, the judges will  question him! Presentation skills are must in an IT sector too, so  both technical and soft skill will be covered in this.",
+      "The team will be given a choice of finding a problem and it's  solution ( blue print ) in a given time frame in which atleast 3-4  domains should be covered."
+    ],
+    "tagline": "Coz I know it all!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482eed",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 20,
+    "eventName": "Stockhastic",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Parixit Sanghani",
+        "phone": "9825552163"
+      },
+      {
+        "name": "Niraj Lathiya ",
+        "phone": "7567425292"
+      }
+    ],
+    "rounds": [
+      "Participant will get a virtual money and will have to make a  maximum profit by trading."
+    ],
+    "tagline": "You might be a redneck if you think the stock market has fence  around it.",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482eee",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Marvel Alliance",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Chintan Rajput",
+        "phone": "9979106297"
+      },
+      {
+        "name": "Bharat Odedara",
+        "phone": "8980726007"
+      },
+      {
+        "name": "Krupal Solanki",
+        "phone": "7572810409"
+      }
+    ],
+    "rounds": [
+      "Pen – paper base test related to marvel comics",
+      "Become THANOS! Hunt for the infinity stones across BVM. Only limited number of  stones will be there. Each team will be hunting for only one of the  six infinity stones.",
+      "Teams need to form alliance with any six heroes from the list of  heroes given to them. Teams will need to utilize their hero’s super  power to confront the situations provided to them (each team will  need to surpass four situations to reach the finish line), If they  don’t use their super heroes wisely they might lose that super hero."
+    ],
+    "tagline": "Are you more than just a fan?",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482eef",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 20,
+    "eventName": "Mann Ki Baat",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Aditya Bapat",
+        "phone": "9408020232"
+      },
+      {
+        "name": "Jeel Rathod",
+        "phone": "7874131967"
+      }
+    ],
+    "rounds": [
+      "Story creation from the multiple object perception which will be presented on ppt. Participants have to create a fictional engrossing story line based on what they perceive.",
+      "Participants have to act as per given situations. Situations can be serious, comedy, improve.",
+      "Open Mic, selected Participants will get a stage to present what they are good at.  Open mic time limit (3-6 min act)"
+    ],
+    "tagline": "“Win the stage with words, You better think before you speak”",
+    "teamSize": 1,
+    "notes": "Participants have to perform in the same language during all rounds."
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ef0",
+    "participants": [],
+    "department": "mechProd",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 50,
+    "eventName": "Mecha-Hunt",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Kunal Nakum",
+        "phone": "8511911477"
+      },
+      {
+        "name": "Siddarth Shah",
+        "phone": "9408669018"
+      },
+      {
+        "name": "Hussain Badri",
+        "phone": "9712283296"
+      }
+    ],
+    "rounds": [
+      "Pen-paper based quiz on Elements of Mechanical Engineering ",
+      "Treasure hunt based on mechanical and production engineering.",
+      "Make DIY howercraft (material will be provided)"
+    ],
+    "tagline": "Surf the Treasure",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ef1",
+    "participants": [],
+    "department": "cpit",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "Game of Codes",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Komal Tankariya ",
+        "phone": "7096438394"
+      },
+      {
+        "name": "Mit Patel",
+        "phone": "9624453233"
+      },
+      {
+        "name": "Arjun khunti ",
+        "phone": "9714556094"
+      }
+    ],
+    "rounds": [
+      "Pen paper based quiz related to simple programming knowledge (  c and c++).",
+      "In this round, you have one program but in this program, you can  use only basic operator and define data type. If you want to use  features like: for, while, do...while, switch case, structure, operator  overloading, polymorphism, etc then you have to solve puzzle  given to you. Answer of that puzzle is one of the places of B.V.M.  For using each feature, you have to solve one puzzle.",
+      "You have 2 programs. In first 40 minutes, you and your partner  have to solve 1 problem. But in first 20 minutes one member have  to solve the problem and in another 20 min the another member  have to solve the same problem in continues manner without  discussing. This process repeat for the 2nd problem."
+    ],
+    "tagline": "Talk is cheap, show me your code.",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ef2",
+    "participants": [],
+    "department": "mechProd",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 60,
+    "eventName": "Contraption",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Hardik Dholakiya",
+        "phone": "8306028438"
+      },
+      {
+        "name": "Amit Sorathiya",
+        "phone": "8866556833"
+      },
+      {
+        "name": "Vaibhav Vataliya",
+        "phone": "8866772450"
+      }
+    ],
+    "rounds": [],
+    "tagline": "Let's play with the Law of Nature",
+    "teamSize": 4,
+    "notes": "Rule Book link: https://drive.google.com/file/d/1qRhiJ2s0cMnPQ16IgnFNCFXFvOLt2m_p/view\nDemo Video link: https://drive.google.com/file/d/1afcTqInd2jdbe0V_PN0kltdVKjDzRn68/view?usp=sharing"
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ef3",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 60,
+    "eventName": "SOTY (STUDENT OF THE YEAR) ",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Shafi Mehtar ",
+        "phone": "7434050079"
+      },
+      {
+        "name": "Jaynil Panwala",
+        "phone": "8866684743"
+      },
+      {
+        "name": "Vraj Parekh ",
+        "phone": "9099032848"
+      }
+    ],
+    "rounds": [
+      "Pen paper based test on GK, current affairs, riddles and puzzles",
+      " Physical activity: Participants have to perform physical task.",
+      "Treasure hunt"
+    ],
+    "tagline": "May the best win ",
+    "teamSize": 3,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ef4",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "F.R.I.E.N.D.S",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Haresh Pateliya",
+        "phone": "9712636466"
+      },
+      {
+        "name": "Ravikumar Devmurari",
+        "phone": "9687748166"
+      },
+      {
+        "name": "Manthan Vaishnav",
+        "phone": "9664914956"
+      }
+    ],
+    "rounds": [
+      "A test based on friendship. Same Question paper will be given to  both participants.",
+      "Ganna Bajana: One participant will wear earphone and his/her partner need to judge  his/her partner’s word by lip movement and action.",
+      "True friends: Task based on teamwork. One of the participants  have to follow the instructions, which will be given by his friend."
+    ],
+    "tagline": "I’ll be there for you!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ef5",
+    "participants": [],
+    "department": "non-tech",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Valar Morghulis",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Jayesh Dave ",
+        "phone": "8140512391"
+      },
+      {
+        "name": "Harsh Patel",
+        "phone": "8866577381"
+      },
+      {
+        "name": "Neel Vachhani",
+        "phone": "8980781944"
+      }
+    ],
+    "rounds": [
+      "\"Come closer to the throne\": Ppt based quiz - name, photos, relation, dialogue from GOT series.",
+      "\"I Drink and i know things \": Debate, attack, predict and defend the GOT character, situation  etc.",
+      "\"You win or you die \": Treasure hunt "
+    ],
+    "tagline": "Winter is here!",
+    "teamSize": 3,
+    "notes": null
+  },
+  {
+    "_id": "5c6ab005a034092f8c482ef6",
+    "participants": [],
+    "department": "mechProd",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 60,
+    "eventName": "Let's Sling it !",
+    "eventType": "tech",
+    "managers": [
+      {
+        "name": "Jenil Nadpara",
+        "phone": "9558516203"
+      },
+      {
+        "name": "Parth Shah",
+        "phone": "8140850243"
+      },
+      {
+        "name": "Brijesh Somaiya",
+        "phone": "8460219905"
+      }
+    ],
+    "rounds": [
+      "Participants have to make catapult (A ballistic device used to launch a projectile a great distance without the aid of explosive devices) with provided material in specific time limit",
+      "Participants have to make a rocket(bottle) launcher type simple model from provided material such that their bottle should travel maximum distance."
+    ],
+    "tagline": "Awake the Shooter",
+    "teamSize": 3,
+    "notes": null
+  },
+  {
+    "_id": "5c6cf056f25a0c001773b760",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Antakshari",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Harsh Vaidya",
+        "phone": "9737249040"
+      },
+      {
+        "name": "Jal Joshi",
+        "phone": "9016821661"
+      }
+    ],
+    "rounds": [
+      "Elimination Round : Dhun Round and Normal Antakshari.",
+      "Finals : Dhun Round, Title Song, Audio/Visual Round. "
+    ],
+    "tagline": "Suro ka Mela",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6cf1bbf25a0c001773b761",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 40,
+    "eventName": "QUIZZITCH",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Saloni Gajjar",
+        "phone": "9586934969"
+      },
+      {
+        "name": "Muskan Gupta",
+        "phone": "8000656014"
+      }
+    ],
+    "rounds": [
+      "Prelims : Pen and Paper Round based on Slides.",
+      " TOP - 6 teams into finals .  Mains/Finals : Various Rounds depending on Quiz Master. "
+    ],
+    "tagline": "Battle of Brains.",
+    "teamSize": 3,
+    "notes": "Quiz Master  : TATA CRUCIBLE NATIONAL CHAMPION BHUSHAN PATEL. CASH PRIZE FOR THE WINNERS."
+  },
+  {
+    "_id": "5c6cf2fcf25a0c001773b762",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Youth Parliament",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Soham Bhatt",
+        "phone": "9426382171"
+      }
+    ],
+    "rounds": [
+      "Round 1 : Group discussion on a recent political issue.",
+      "Parliament set-up with ruling party, opposition and minority. Law/Bill has to be passed on the topic of discussion in the parliament. Top 15 of Round 1"
+    ],
+    "tagline": "Students of Today, Leaders of Tomorrow",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6cf48bf25a0c001773b763",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Artes Elegantase",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Dhruvika Vankar",
+        "phone": "9925105258"
+      },
+      {
+        "name": "Saloni Gajjar ",
+        "phone": "9586934969"
+      }
+    ],
+    "rounds": [
+      "A paper with geometrical shapes pre-printed will be given. Participants will have to draw and express their creativity using that.",
+      "Best out of Waste. Material will be provided.",
+      "Surprise Round"
+    ],
+    "tagline": "Picaso of the East.",
+    "teamSize": 2,
+    "notes": "Fine-Arts Event"
+  },
+  {
+    "_id": "5c6cf5d0f25a0c001773b764",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "S.P.E.N.T Quiz",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Gautam Vivekanandan",
+        "phone": "8758192989"
+      },
+      {
+        "name": "Mrudang Oza",
+        "phone": "8469990274"
+      }
+    ],
+    "rounds": [
+      "Elimination : Pen and Paper Round based on slides",
+      "Mains/Finals : Stage round with different rounds depending on Quiz Master (TOP - 6 teams)"
+    ],
+    "tagline": "Be a sport,its entertainment !",
+    "teamSize": 2,
+    "notes": "Sports and Entertainment Quiz will include Sports,Hollywood,TV Soaps/Series and Pop culture but not Bollywood. CASH PRIZE FOR WINNERS."
+  },
+  {
+    "_id": "5c6cf6cdf25a0c001773b765",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "BOLLY MIX BOLLY",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Muskan Gupta",
+        "phone": "8000656014"
+      },
+      {
+        "name": "Harsh Vaidya",
+        "phone": "9737249040"
+      }
+    ],
+    "rounds": [
+      "Elimination: Pen and Paper fully based on Bollywood",
+      "FINALS: Stage Round , Normal Quiz, Dumb-Charades , Pictionary Dumb-Charades. TOP-6 teams into FINALS. "
+    ],
+    "tagline": "AA DEKHE ZARA , KISME KITNA HE DUM.",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6d4b222195780017595603",
+    "participants": [],
+    "department": "non-tech",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 60,
+    "eventName": "Treasure Hunt",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Akaash Vora",
+        "phone": "9978174163"
+      },
+      {
+        "name": "Prerak Kachhiya",
+        "phone": "7575083000"
+      },
+      {
+        "name": "Kenil naik",
+        "phone": "7069873600"
+      }
+    ],
+    "rounds": [
+      "Pen-Paper based qiuz",
+      "Treasure Hunt in the BVM campus",
+      "Treasure Hunt in ANAND"
+    ],
+    "tagline": "Let's dig it out!",
+    "teamSize": 2,
+    "notes": null
+  },
+  {
+    "_id": "5c6d4c572195780017595604",
+    "participants": [],
+    "department": "non-tech",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "PUBG Gaming Mobile",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Akshar Patel",
+        "phone": "8200754085"
+      },
+      {
+        "name": "Japan Patel",
+        "phone": "7201064789"
+      },
+      {
+        "name": "Sahil Hada",
+        "phone": "9428050869"
+      },
+      {
+        "name": "Manav Prajapati",
+        "phone": "7984361284"
+      }
+    ],
+    "rounds": [
+      "Every Team will play 2 matches",
+      "Every Team will Have only One chance to go further!",
+      "Top 2 teams will be selected as winner!"
+    ],
+    "tagline": "Loot Scoot and Shoot",
+    "teamSize": 1,
+    "notes": null
+  },
+  {
+    "_id": "5c6d54ea2195780017595606",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 80,
+    "eventName": "Bakers and Sellers ",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Kirti Tandon",
+        "phone": "7435832449"
+      }
+    ],
+    "rounds": [
+      "Participants have to dice various vegetables according to requirements and elimination will be done on the basis of precision.",
+      "Selected Participants will be given one hour to buy raw product for cooking and selling in given time"
+    ],
+    "tagline": "Bake My Day",
+    "teamSize": 4,
+    "notes": null
+  },
+  {
+    "_id": "5c6d57f02195780017595607",
+    "participants": [],
+    "department": "cultural",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 20,
+    "eventName": "View Finder ",
+    "eventType": "non-tech",
+    "managers": [],
+    "rounds": [
+      "Topics: (1) colourful life (2) shadow (3) work is worship",
+      "On the spot round "
+    ],
+    "tagline": "Think Imagine Create",
+    "teamSize": 1,
+    "notes": "Online submission before 11 March 2019 \nResults of round 1 will be declared on 14th March 2019\nMail your photos at udaanviewfinder@gmail.com\nSubmit your photos with following format fullname, contract number, EXIF details.\n\nRules: \n(1) you have to submit minimum of 3 photos and maximum 5 photos on any of the topics\n(2) manipulation is not allowed\n(3) winning criteria will be on the overall quality, innovation and coherence with the theme\n(4) top photos will be displayed on cover wall of BVM"
+  },
+  {
+    "_id": "5c726df23ff1190017963a4c",
+    "participants": [],
+    "department": "non-tech",
+    "description": "genesis event",
+    "prizeMoney": [
+      20
+    ],
+    "entryFee": 30,
+    "eventName": "Counter Strike (CSGO) ",
+    "eventType": "non-tech",
+    "managers": [
+      {
+        "name": "Akshar Patel",
+        "phone": "8200754085"
+      },
+      {
+        "name": "Japan Patel",
+        "phone": "7201064789"
+      },
+      {
+        "name": "Sahil Hada",
+        "phone": "9428050869"
+      },
+      {
+        "name": "Manav Prajapati",
+        "phone": "7984361284"
+      }
+    ],
+    "rounds": [
+      "Both the teams CT and T will play with each other."
+    ],
+    "tagline": "Kill until Triumph",
+    "teamSize": 1,
+    "notes": null
+  }
+]
