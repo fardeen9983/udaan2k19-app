@@ -1,7 +1,6 @@
 package in.ac.bvmengineering.udaan2k19.Service;
 
 import android.util.Log;
-import android.widget.Toast;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
@@ -55,9 +54,8 @@ public class FirebaseMsgService extends FirebaseMessagingService {
         // If you want to send messages to this application instance or
         // manage this apps subscriptions on the server side, send the
         // Instance ID token to your app server.
-        PowerPreference.getDefaultFile().put("token", token);
+        PowerPreference.getDefaultFile().put("authToken", token);
         Log.v(TAG, token);
-        Toast.makeText(getApplicationContext(), token, Toast.LENGTH_LONG);
 //        sendRegistrationToServer(token);
     }
 }

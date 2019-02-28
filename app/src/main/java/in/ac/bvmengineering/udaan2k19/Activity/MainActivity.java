@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -15,6 +14,9 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
 import com.preference.PowerPreference;
 
+import java.util.Objects;
+
+import in.ac.bvmengineering.udaan2k19.Misc.Constant;
 import in.ac.bvmengineering.udaan2k19.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
         profileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                Constant.getComingSoonDialog(MainActivity.this, "You need to Log in with your phone number to access your profile").show();
+                //startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
             }
         });
 
@@ -60,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                         // Get new Instance ID token
-                        String token = task.getResult().getToken();
-                        PowerPreference.getDefaultFile().put("token", token);
+                        String token = Objects.requireNonNull(task.getResult()).getToken();
+                        PowerPreference.getDefaultFile().put("authToken", token);
                         // Log and toast
-                        Log.d(TAG, token);
-                        Toast.makeText(MainActivity.this, token, Toast.LENGTH_SHORT).show();
+                        //Log.d(TAG, token);
+                        //Toast.makeText(MainActivity.this, token, Toast.LENGTH_SHORT).show();
                     }
                 });
 

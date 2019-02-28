@@ -5,8 +5,6 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 
-import in.ac.bvmengineering.udaan2k19.R;
-
 public class Constant {
     public static String AUTOMOTIVE_PHILOSOPHER = "mechProd";
     public static String BUILDER_OF_AZKABAN = "civil";
@@ -19,11 +17,18 @@ public class Constant {
     private static Dialog comingSoonDialog;
     public static String[] EVENT_CATEGORIES = new String[]{BUILDER_OF_AZKABAN, AUTOMOTIVE_PHILOSOPHER, CHAMBER_OF_CODERS, HALF_WAVE_PRINCE, MAD_HOLLOWS, SCAMANDERS_SUITCASE, ORDER_OF_OHMS};
 
-    public static Dialog ComingSoonDialog(Context context) {
+    public static Dialog getComingSoonDialog(Context context, String msg) {
         if (comingSoonDialog == null) {
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setCancelable(true);
-            builder.setView(R.layout.dialog_layout);
+            builder.setTitle("Coming Soon ...");
+            builder.setMessage(msg);
+            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                }
+            });
             builder.setOnCancelListener(new DialogInterface.OnCancelListener() {
                 @Override
                 public void onCancel(DialogInterface dialog) {
