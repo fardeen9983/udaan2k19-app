@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "931076620016",
+    "firebase_url": "https://udaan2k19-app.firebaseio.com",
+    "project_id": "udaan2k19-app",
+    "storage_bucket": "udaan2k19-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931076620016:android:c7748a4fbec03174",
+        "android_client_info": {
+          "package_name": "in.ac.bvmengineering.udaan2k19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931076620016-2n4u8sifsmblicpu8v8jdg9vm872kgb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.bvmengineering.udaan2k19",
+            "certificate_hash": "7c98cf1e3ae926c3b20b95732ba02e0e773a1a33"
+          }
+        },
+        {
+          "client_id": "931076620016-ccvpt3g47903ofkuupnlvjool3grr2uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLsQY-KjOAcniYscJkID6Gk8YvQHNvruc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931076620016-ccvpt3g47903ofkuupnlvjool3grr2uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
