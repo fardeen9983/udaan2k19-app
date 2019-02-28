@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import in.ac.bvmengineering.udaan2k19.R;
 
-public class MenuActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     Button eventList, profileButton, aboutButton;
 
@@ -29,7 +29,7 @@ public class MenuActivity extends AppCompatActivity {
         eventList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuActivity.this, EventCategoryActivity.class);
+                Intent intent = new Intent(MainActivity.this, EventCategoryActivity.class);
                 startActivity(intent);
             }
         });

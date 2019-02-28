@@ -192,7 +192,7 @@ public class PhoneAuthActivity extends AppCompatActivity {
                             FirebaseUser user = Objects.requireNonNull(task.getResult()).getUser();
                             // [START_EXCLUDE]
                             PowerPreference.getDefaultFile().put("uid", user.getUid());
-                            startActivity(new Intent(getApplicationContext(), MenuActivity.class));
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             //updateUI(STATE_SIGNIN_SUCCESS, user);
                             // [END_EXCLUDE]
                         } else {
