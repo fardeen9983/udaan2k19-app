@@ -1,6 +1,5 @@
 package in.ac.bvmengineering.udaan2k19.Activity;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -27,7 +26,6 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
-import in.ac.bvmengineering.udaan2k19.Misc.Constant;
 import in.ac.bvmengineering.udaan2k19.Misc.VolleySingleton;
 import in.ac.bvmengineering.udaan2k19.R;
 
@@ -52,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
         guest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                firebaseAuth.signInAnonymously();
+
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finishAfterTransition();
 
@@ -62,53 +60,53 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Dialog dialog =
-                Constant.ComingSoonDialog(LoginActivity.this);
-                dialog.getWindow().setLayout(200,200);
-                dialog.show();
-//                final String phoneT = phone.getText().toString();
-//                String passT = password.getText().toString();
-//                if (phoneT.isEmpty())
-//                    phone.setError("Enter a Phone no");
-//                else if (passT.isEmpty())
-//                    password.setError("Password cannot be empty");
-//                else {
-//                    VolleySingleton singleton = VolleySingleton.getInstance(getApplicationContext());
-//                    HashMap<String, String> params = new HashMap<>();
-//                    params.put("username", phoneT);
-//                    params.put("password", passT);
-//                    JsonObjectRequest jsonRequest = new JsonObjectRequest(
-//                            Request.Method.POST,
-//                            getResources().getString(R.string.url_login), new JSONObject(params), new Response.Listener<JSONObject>() {
-//                        @Override
-//                        public void onResponse(JSONObject response) {
-//                            if (response.has("token")) {
-//                                String token = response.optString("token");
-//                                Preference preference = PowerPreference.getDefaultFile();
-//                                preference.putString("token", token);
-//                                preference.putBoolean("loggedIn", false);
-//                                //Toast.makeText(getApplicationContext(), token, Toast.LENGTH_LONG).show();
-//                                Intent intent = new Intent(LoginActivity.this, PhoneAuthActivity.class);
-//                                intent.putExtra("phone", "+91" + phoneT);
-//                                startActivity(intent);
-//                                finish();
-//                            } else {
-//                                Toast.makeText(getApplicationContext(), "Unable to sign in. Invalid Credentials", Toast.LENGTH_LONG).show();
-//                            }
-//                        }
-//                    }, new Response.ErrorListener() {
-//                        @Override
-//                        public void onErrorResponse(VolleyError error) {
-//                            error.printStackTrace();
-//
-//                            Toast.makeText(getApplicationContext(), error.toString(), Toast.LENGTH_LONG).show();
-//                        }
-//                    }) {
-//
-//                    };
-//                    singleton.getRequestQueue().add(jsonRequest);
-//                    singleton.getRequestQueue().start();
-//                }
+//                Dialog dialog =
+//                Constant.ComingSoonDialog(LoginActivity.this);
+//                dialog.getWindow().setLayout(200,200);
+//                dialog.show();
+                final String phoneT = phone.getText().toString();
+                String passT = password.getText().toString();
+                if (phoneT.isEmpty())
+                    phone.setError("Enter a Phone no");
+                else if (passT.isEmpty())
+                    password.setError("Password cannot be empty");
+                else {
+                    VolleySingleton singleton = VolleySingleton.getInstance(getApplicationContext());
+                    HashMap<String, String> params = new HashMap<>();
+                    params.put("username", phoneT);
+                    params.put("password", passT);
+                    JsonObjectRequest jsonRequest = new JsonObjectRequest(
+                            Request.Method.POST,
+                            getResources().getString(R.string.url_login), new JSONObject(params), new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(JSONObject response) {
+                            if (response.has("token")) {
+                                String token = response.optString("token");
+                                Preference preference = PowerPreference.getDefaultFile();
+                                preference.putString("token", token);
+                                preference.putBoolean("loggedIn", false);
+                                //Toast.makeText(getApplicationContext(), token, Toast.LENGTH_LONG).show();
+                                Intent intent = new Intent(LoginActivity.this, PhoneAuthActivity.class);
+                                intent.putExtra("phone", "+91" + phoneT);
+                                startActivity(intent);
+                                finish();
+                            } else {
+                                Toast.makeText(getApplicationContext(), "Unable to sign in. Invalid Credentials", Toast.LENGTH_LONG).show();
+                            }
+                        }
+                    }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            error.printStackTrace();
+
+                            Toast.makeText(getApplicationContext(), error.toString(), Toast.LENGTH_LONG).show();
+                        }
+                    }) {
+
+                    };
+                    singleton.getRequestQueue().add(jsonRequest);
+                    singleton.getRequestQueue().start();
+                }
             }
         });
 

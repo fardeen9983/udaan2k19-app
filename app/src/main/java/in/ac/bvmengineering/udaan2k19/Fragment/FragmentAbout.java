@@ -1,4 +1,4 @@
-package in.ac.bvmengineering.udaan2k19.Activity;
+package in.ac.bvmengineering.udaan2k19.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,10 +10,11 @@ import android.view.ViewGroup;
 
 import in.ac.bvmengineering.udaan2k19.R;
 
-public class FragmentDeveloper extends Fragment {
+public class FragmentAbout extends Fragment {
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_developer, container, false);
+        return inflater.inflate(R.layout.fragment_about, container, false);
     }
 }

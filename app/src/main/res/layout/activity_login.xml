@@ -78,7 +78,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="36dp"
-        android:background="@drawable/button"
+        android:background="@drawable/buttonpatch"
         android:text="@string/guest"
         android:textColor="@color/brown"
         android:textSize="32sp"
