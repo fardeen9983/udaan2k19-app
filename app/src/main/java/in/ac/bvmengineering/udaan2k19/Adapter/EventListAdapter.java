@@ -1,5 +1,6 @@
 package in.ac.bvmengineering.udaan2k19.Adapter;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,14 +12,17 @@ import java.util.ArrayList;
 
 import in.ac.bvmengineering.udaan2k19.DataClass.Event;
 import in.ac.bvmengineering.udaan2k19.Interface.OnEventClickListener;
+import in.ac.bvmengineering.udaan2k19.Misc.Constant;
 import in.ac.bvmengineering.udaan2k19.R;
 
 public class EventListAdapter extends RecyclerView.Adapter<EventListAdapter.EventListViewHolder> {
     private ArrayList<Event> events;
+    private Context context;
     private OnEventClickListener onEventClickListener;
 
-    public EventListAdapter(ArrayList<Event> events, OnEventClickListener onEventClickListener) {
+    public EventListAdapter(Context context, ArrayList<Event> events, OnEventClickListener onEventClickListener) {
         this.events = events;
+        this.context = context;
         this.onEventClickListener = onEventClickListener;
     }
 
@@ -51,6 +55,7 @@ public class EventListAdapter extends RecyclerView.Adapter<EventListAdapter.Even
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    v.startAnimation(Constant.getAnimation(context));
                     listener.onEventClick(event);
                 }
             });

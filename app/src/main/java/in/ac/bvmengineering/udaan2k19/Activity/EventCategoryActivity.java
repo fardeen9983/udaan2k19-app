@@ -30,8 +30,10 @@ public class EventCategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_category);
 
+        EventCategory[] x = PowerPreference.getDefaultFile().getObject("eventCategories", EventCategory[].class);
+
         toolbar = findViewById(R.id.tool_bar);
-        toolbar.setTitleTextColor(getResources().getColor(R.color.toolbar_text));
+        toolbar.setTitleTextAppearance(this, R.style.ToolbarText);
         toolbar.setTitle("Event Category");
         setSupportActionBar(toolbar);
 
@@ -40,7 +42,7 @@ public class EventCategoryActivity extends AppCompatActivity {
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
         eventCategoryRecyclerView.addItemDecoration(dividerItemDecoration);
 
-        EventCategory[] events = PowerPreference.getDefaultFile().getObject("eventCategories", EventCategory[].class, null);
+        EventCategory[] events = PowerPreference.getDefaultFile().getObject("eventCategories", EventCategory[].class);
         eventCategoryArrayList.addAll(Arrays.asList(events));
         eventCategoryAdapter = new EventCategoryAdapter(EventCategoryActivity.this, eventCategoryArrayList, new OnCategoryItemClickListener() {
             @Override

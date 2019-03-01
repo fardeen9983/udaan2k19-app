@@ -7,7 +7,7 @@
         <item name="colorPrimary">@android:color/transparent</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/brown</item>
-        <item name="android:fontFamily">@font/roboto_condensed</item>
+        <item name="android:fontFamily">@font/dum2</item>
     </style>
 
     <style name="CustomActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
@@ -35,6 +35,12 @@
     <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">28dp</item>
         <item name="android:textColor">@color/brown</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToolbarText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/toolbar_text</item>
         <item name="android:textStyle">bold</item>
     </style>
 

@@ -27,6 +27,12 @@ public class Event implements Serializable {
     private ArrayList<String> rounds;
     @SerializedName("managers")
     private ArrayList<Manager> managers;
+    @SerializedName("teamSize")
+    private int teamSize;
+
+    public int getTeamSize() {
+        return teamSize;
+    }
 
     public String getNotes() {
         return notes;

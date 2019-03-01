@@ -13,6 +13,7 @@ import com.preference.PowerPreference;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,6 +22,7 @@ import java.util.HashMap;
 
 import in.ac.bvmengineering.udaan2k19.DataClass.Event;
 import in.ac.bvmengineering.udaan2k19.DataClass.EventCategory;
+import in.ac.bvmengineering.udaan2k19.DataClass.Manager;
 import in.ac.bvmengineering.udaan2k19.Misc.Constant;
 import in.ac.bvmengineering.udaan2k19.R;
 
@@ -75,6 +77,21 @@ public class IntroActivity extends AppCompatActivity {
                             }
                             events.put(event.getId(), event);
                             Log.v(TAG, event.toString());
+                        }
+
+                        is = getAssets().open("head.json");
+                        buffer = new byte[is.available()];
+                        is.read(buffer);
+                        is.close();
+                        JSONObject head = new JSONObject(new String(buffer));
+                        for (String string : Constant.EVENT_CATEGORIES) {
+                            if (string.equals(Constant.SCAMANDERS_SUITCASE))
+                                continue;
+                            JSONArray array = head.optJSONArray(string);
+                            for (int i = 0; i < array.length(); i++) {
+                                Manager manager = new Gson().fromJson(array.optJSONObject(i).toString(), Manager.class);
+                                saveHead(manager, string);
+                            }
                         }
                         eventCategories.add(builder);
                         eventCategories.add(automative);
@@ -146,6 +163,29 @@ public class IntroActivity extends AppCompatActivity {
                 break;
             case 6:
                 ohms.getEvents().add(event);
+                break;
+        }
+    }
+
+    private void saveHead(Manager manager, String i) {
+        switch (i) {
+            case Constant.BUILDER_OF_AZKABAN:
+                builder.getManagers().add(manager);
+                break;
+            case Constant.AUTOMOTIVE_PHILOSOPHER:
+                automative.getManagers().add(manager);
+                break;
+            case Constant.CHAMBER_OF_CODERS:
+                chamber.getManagers().add(manager);
+                break;
+            case Constant.HALF_WAVE_PRINCE:
+                halfwave.getManagers().add(manager);
+                break;
+            case Constant.MAD_HOLLOWS:
+                mad.getManagers().add(manager);
+                break;
+            case Constant.ORDER_OF_OHMS:
+                ohms.getManagers().add(manager);
                 break;
         }
     }

@@ -8,27 +8,26 @@ public class EventCategory implements Serializable {
     private int image;
     private String name;
     private ArrayList<Event> events;
+    private ArrayList<Manager> managers;
 
     public EventCategory(int image, String name) {
         this.image = image;
         this.name = name;
         events = new ArrayList<>();
+        managers = new ArrayList<>();
     }
+
 
     public ArrayList<Event> getEvents() {
         return events;
     }
 
-    public void setEvents(ArrayList<Event> events) {
-        this.events = events;
+    public ArrayList<Manager> getManagers() {
+        return managers;
     }
 
     public int getImage() {
         return image;
-    }
-
-    public void setImage(int image) {
-        this.image = image;
     }
 
     public String getName() {

@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 import in.ac.bvmengineering.udaan2k19.DataClass.EventCategory;
 import in.ac.bvmengineering.udaan2k19.Interface.OnCategoryItemClickListener;
+import in.ac.bvmengineering.udaan2k19.Misc.Constant;
 import in.ac.bvmengineering.udaan2k19.Misc.GlideApp;
 import in.ac.bvmengineering.udaan2k19.R;
 
@@ -91,6 +92,7 @@ public class EventCategoryAdapter extends RecyclerView.Adapter<EventCategoryAdap
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    v.startAnimation(Constant.getAnimation(context));
                     listener.onCategoryItemClick(eventCategory);
                 }
             });

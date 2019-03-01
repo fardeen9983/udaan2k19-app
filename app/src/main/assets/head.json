@@ -1,77 +1,82 @@
-[
-  {
-    "Name ": "SAIFUDDIN DALAL",
-    "Mobile No": "9574520618",
-    "Branch": "me"
-  },
-  {
-    "Name ": "SAURAV GHODASARA",
-    "Mobile No": "9687222055",
-    "Branch": "me"
-  },
-  {
-    "Name ": "HIREN VARA",
-    "Mobile No": "7698918598",
-    "Branch": "me"
-  },
-  {
-    "Name ": "ABHISHEK DAND ",
-    "Mobile No": "8140366756",
-    "Branch": "el"
-  },
-  {
-    "Name ": "RAJAL SHETHIYA",
-    "Mobile No": "9408341382",
-    "Branch": "el"
-  },
-  {
-    "Name ": "ANKIT BANDHIYA",
-    "Mobile No": "8264346434",
-    "Branch": "ee"
-  },
-  {
-    "Name ": "KHIMJI BATTA",
-    "Mobile No": "9558721466",
-    "Branch": "ee"
-  },
-  {
-    "Name ": "AYUSHI SHAH ",
-    "Mobile No": "7359939295",
-    "Branch": "ec"
-  },
-  {
-    "Name ": "DISHANT SHAH",
-    "Mobile No": "9737628997",
-    "Branch": "ec"
-  },
-  {
-    "Name ": "DHARMENDRA JADEJA",
-    "Mobile No": "7874179908",
-    "Branch": "ce"
-  },
-  {
-    "Name ": "URMIN VEGAD",
-    "Mobile No": "9913269888",
-    "Branch": "ce"
-  },
-  {
-    "Name ": "RITESH KAUL ",
-    "Mobile No": "8871436343",
-    "Branch": "cp"
-  },
-  {
-    "Name ": "PRITESH TANDEL",
-    "Mobile No": "8160698530",
-    "Branch": "cp"
-  },
-  {
-    "Name ": "PRASHANT GAJERA",
-    "Mobile No": "9925333230",
-    "Branch": "it"
-  },
-  {
-    "Name ": "RAHUL MEHTA",
-    "Mobile No": "9408887834",
-    "Branch": "it"
-  }
-]
+{
+  "mechProd": [
+    {
+      "name": "SAIFUDDIN DALAL",
+      "phone": "9574520618"
+    },
+    {
+      "name": "SAURAV GHODASARA",
+      "phone": "9687222055"
+    },
+    {
+      "name": "HIREN VARA",
+      "phone": "7698918598"
+    }
+  ],
+  "ecel": [
+    {
+      "name": "AYUSHI SHAH ",
+      "phone": "7359939295"
+    },
+    {
+      "name": "DISHANT SHAH",
+      "phone": "9737628997"
+    },
+    {
+      "name": "ABHISHEK DAND ",
+      "phone": "8140366756"
+    },
+    {
+      "name": "RAJAL SHETHIYA",
+      "phone": "9408341382"
+    }
+  ],
+  "ee": [
+    {
+      "name": "ANKIT BANDHIYA",
+      "phone": "8264346434"
+    },
+    {
+      "name": "KHIMJI BATTA",
+      "phone": "9558721466"
+    }
+  ],
+  "civil": [
+    {
+      "name": "DHARMENDRA JADEJA",
+      "phone": "7874179908"
+    },
+    {
+      "name": "URMIN VEGAD",
+      "phone": "9913269888"
+    }
+  ],
+  "cpit": [
+    {
+      "name": "RITESH KAUL ",
+      "phone": "8871436343"
+    },
+    {
+      "name": "PRITESH TANDEL",
+      "phone": "8160698530"
+    },
+    {
+      "name": "PRASHANT GAJERA",
+      "phone": "9925333230"
+    },
+    {
+      "name": "RAHUL MEHTA",
+      "phone": "9408887834"
+    }
+  ],
+  "cultural": [
+    {
+      "name": "GAUTAM VIVEKANANDAN",
+      "phone": "8758192989"
+    },
+    {
+      "name": "SOHAM BHAT",
+      "phone": "9426382171"
+    }
+  ]
+}

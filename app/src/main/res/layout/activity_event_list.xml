@@ -13,6 +13,7 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/event_list"
+        android:requiresFadingEdge="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="50dp"
@@ -38,13 +39,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="Event Head"
-            android:textSize="23dp" />
+            android:text="EVENT HEAD"
+            android:textSize="32dp" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/event_head_list"
             android:layout_width="wrap_content"
-            android:layout_height="51dp"
+            android:layout_height="wrap_content"
             android:layout_below="@id/eventhead_text"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="8dp"

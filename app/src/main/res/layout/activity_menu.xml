@@ -7,12 +7,13 @@
     android:background="@drawable/background"
     tools:context=".Activity.MainActivity">
 
+    <include layout="@layout/tool_bar" />
     <Button
         android:id="@+id/profile_button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/profile"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,8 +22,8 @@
 
     <Button
         android:id="@+id/ar_camera"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -35,8 +36,8 @@
 
     <Button
         android:id="@+id/filter"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -49,8 +50,8 @@
 
     <Button
         android:id="@+id/events_button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -63,8 +64,8 @@
 
     <Button
         android:id="@+id/about_button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
