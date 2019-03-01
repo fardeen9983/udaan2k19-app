@@ -18,8 +18,8 @@ public class Constant {
     public static String[] EVENT_CATEGORIES = new String[]{BUILDER_OF_AZKABAN, AUTOMOTIVE_PHILOSOPHER, CHAMBER_OF_CODERS, HALF_WAVE_PRINCE, MAD_HOLLOWS, SCAMANDERS_SUITCASE, ORDER_OF_OHMS};
 
     public static Dialog getComingSoonDialog(Context context, String msg) {
-        if (comingSoonDialog == null) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(context);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setCancelable(true);
             builder.setTitle("Coming Soon ...");
             builder.setMessage(msg);
@@ -36,7 +36,7 @@ public class Constant {
                 }
             });
             comingSoonDialog = builder.create();
-        }
+
         return comingSoonDialog;
     }
 }

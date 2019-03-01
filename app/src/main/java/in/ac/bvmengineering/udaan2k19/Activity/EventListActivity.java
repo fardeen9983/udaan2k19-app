@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 
 import in.ac.bvmengineering.udaan2k19.Adapter.EventListAdapter;
+import in.ac.bvmengineering.udaan2k19.Adapter.EventManagerAdapter;
 import in.ac.bvmengineering.udaan2k19.DataClass.Event;
 import in.ac.bvmengineering.udaan2k19.DataClass.EventCategory;
 import in.ac.bvmengineering.udaan2k19.Interface.OnEventClickListener;
@@ -23,6 +24,8 @@ public class EventListActivity extends AppCompatActivity {
     RecyclerView eventListRecyclerView;
     EventListAdapter eventListAdapter;
     EventCategory category;
+    EventManagerAdapter eventManagerAdapter;
+    RecyclerView eventCatHeadList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +36,9 @@ public class EventListActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.tool_bar);
         toolbar.setTitleTextColor(Color.parseColor("#FFE5DF2F"));
         toolbar.setTitle(category.getName());
+
+        eventCatHeadList = findViewById(R.id.event_head_list);
+        eventManagerAdapter = new EventManagerAdapter(null);
 
         eventListRecyclerView = findViewById(R.id.event_list);
         eventListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -49,5 +55,6 @@ public class EventListActivity extends AppCompatActivity {
         });
 
         eventListRecyclerView.setAdapter(eventListAdapter);
+
     }
 }

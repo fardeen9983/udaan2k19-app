@@ -8,7 +8,6 @@
     tools:context=".Activity.ProfileActivity">
 
     <ImageView
-        android:background="@drawable/profile"
         android:id="@+id/profile_icon"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -22,36 +21,28 @@
 
     <Button
         android:id="@+id/change_password_button"
-        android:layout_width="170dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/buttonpatch"
+        android:layout_marginEnd="8dp"
         android:text="Change password"
-        android:textSize="23dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/logout_button"
         app:layout_constraintTop_toBottomOf="@+id/profile_icon" />
 
     <Button
         android:id="@+id/logout_button"
-        android:layout_width="170dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="25dp"
-        android:background="@drawable/buttonpatch"
+        android:layout_marginEnd="8dp"
         android:text="Logout"
-        android:textSize="23dp"
         app:layout_constraintEnd_toStartOf="@+id/change_password_button"
-        app:layout_constraintHorizontal_bias="0.306"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_icon" />
 
     <TextView
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -59,7 +50,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Registered Event"
-        android:textSize="25sp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/registered_event_list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,10 +61,10 @@
         android:id="@+id/registered_event_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         android:layout_marginBottom="68dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent">
 
     </android.support.v7.widget.RecyclerView>

@@ -10,8 +10,6 @@ import java.util.ArrayList;
 
 import in.ac.bvmengineering.udaan2k19.Adapter.EventManagerAdapter;
 import in.ac.bvmengineering.udaan2k19.DataClass.Event;
-import in.ac.bvmengineering.udaan2k19.DataClass.Manager;
-import in.ac.bvmengineering.udaan2k19.Interface.OnContactCardClickListener;
 import in.ac.bvmengineering.udaan2k19.R;
 
 public class EventDetailsActivity extends AppCompatActivity {
@@ -49,12 +47,7 @@ public class EventDetailsActivity extends AppCompatActivity {
         }
         roundDetails = findViewById(R.id.round_text);
         roundDetails.setText(temp);
-        eventManagerAdapter = new EventManagerAdapter(event.getManagers(), new OnContactCardClickListener() {
-            @Override
-            public void onContactCardClicked(Manager manager) {
-
-            }
-        });
+        eventManagerAdapter = new EventManagerAdapter(event.getManagers());
         managerRecyclerView.setAdapter(eventManagerAdapter);
 
     }

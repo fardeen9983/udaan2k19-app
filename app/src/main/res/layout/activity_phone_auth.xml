@@ -14,7 +14,7 @@
         android:gravity="center"
         android:hint="Enter verification number"
         android:inputType="number"
-        android:textSize="32sp" />
+        android:textSize="32dp" />
 
     <Button
         android:id="@+id/verify"

@@ -31,7 +31,9 @@
         </activity>
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.ProfileActivity" />
-        <activity android:name=".Activity.AboutActivity" />
+        <activity
+            android:name=".Activity.AboutActivity"
+            android:label="About" />
 
         <meta-data
             android:name="com.google.android.gms.version"

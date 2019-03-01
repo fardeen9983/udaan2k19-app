@@ -1,7 +1,6 @@
 package in.ac.bvmengineering.udaan2k19.Activity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
@@ -32,7 +31,7 @@ public class EventCategoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_event_category);
 
         toolbar = findViewById(R.id.tool_bar);
-        toolbar.setTitleTextColor(Color.parseColor("#FFE5DF2F"));
+        toolbar.setTitleTextColor(getResources().getColor(R.color.toolbar_text));
         toolbar.setTitle("Event Category");
         setSupportActionBar(toolbar);
 
@@ -52,7 +51,7 @@ public class EventCategoryActivity extends AppCompatActivity {
             }
         });
         eventCategoryRecyclerView.setAdapter(eventCategoryAdapter);
-
+        eventCategoryRecyclerView.addItemDecoration(new DividerItemDecoration(this, 0));
 
     }
 }

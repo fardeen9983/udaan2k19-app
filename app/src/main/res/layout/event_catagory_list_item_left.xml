@@ -8,6 +8,7 @@
     android:padding="10dp">
 
     <TextView
+        android:fontFamily="@font/harryp"
         android:id="@+id/event_catagory_name_left"
         android:layout_centerVertical="true"
         android:layout_width="match_parent"
@@ -16,9 +17,9 @@
         android:paddingEnd="25dp"
         android:layout_marginStart="100dp"
         android:background="@drawable/event_catagory_name_backgound"
-        android:gravity="center_vertical"
-        android:text="Event Catagory"
-        android:textSize="30sp" />
+        android:gravity="center"
+        android:text="Event Category"
+        android:textSize="38dp" />
 
     <ImageView
         android:id="@+id/event_catagory_image_left"

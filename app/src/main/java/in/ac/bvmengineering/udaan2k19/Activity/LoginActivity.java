@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-import in.ac.bvmengineering.udaan2k19.Misc.Constant;
+import in.ac.bvmengineering.udaan2k19.Misc.CustomDialog;
 import in.ac.bvmengineering.udaan2k19.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -49,8 +49,8 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Constant.getComingSoonDialog(LoginActivity.this, "This feature will be made available in next Update. Be sure to check it out later!!").show();
+                CustomDialog customDialog = new CustomDialog(LoginActivity.this, "Coming Soon", "This feature will be available in the next update. Make sure to come back!!!");
+                customDialog.show();
 //                final String phoneT = phone.getText().toString();
 //                String passT = password.getText().toString();
 //                if (phoneT.isEmpty())

@@ -10,17 +10,14 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import in.ac.bvmengineering.udaan2k19.DataClass.Manager;
-import in.ac.bvmengineering.udaan2k19.Interface.OnContactCardClickListener;
 import in.ac.bvmengineering.udaan2k19.R;
 
 public class EventManagerAdapter extends RecyclerView.Adapter<EventManagerAdapter.EventManagerViewHolder> {
 
     private ArrayList<Manager> managers;
-    private OnContactCardClickListener listener;
 
-    public EventManagerAdapter(ArrayList<Manager> managers, OnContactCardClickListener listener) {
+    public EventManagerAdapter(ArrayList<Manager> managers) {
         this.managers = managers;
-        this.listener = listener;
     }
 
     @NonNull
@@ -31,7 +28,9 @@ public class EventManagerAdapter extends RecyclerView.Adapter<EventManagerAdapte
 
     @Override
     public void onBindViewHolder(@NonNull EventManagerViewHolder eventManagerViewHolder, int i) {
-        eventManagerViewHolder.bind(managers.get(i), listener);
+        Manager manager = managers.get(i);
+        eventManagerViewHolder.name.setText(manager.getName());
+        eventManagerViewHolder.phone.setText(manager.getPhone());
     }
 
     @Override
@@ -46,17 +45,6 @@ public class EventManagerAdapter extends RecyclerView.Adapter<EventManagerAdapte
             super(itemView);
             name = itemView.findViewById(R.id.contact_name);
             phone = itemView.findViewById(R.id.contact_number);
-        }
-
-        void bind(final Manager manager, final OnContactCardClickListener listener) {
-            name.setText(manager.getName());
-            phone.setText(manager.getPhone());
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    listener.onContactCardClicked(manager);
-                }
-            });
         }
     }
 }

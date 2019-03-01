@@ -3,20 +3,20 @@
     android:id="@+id/event_catagory_layout_left"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:descendantFocusability="blocksDescendants"
-    android:padding="10dp">
+    android:descendantFocusability="blocksDescendants">
 
     <TextView
+        android:layout_width="wrap_content"
         android:id="@+id/event_name"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
+        android:layout_margin="15dp"
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="100dp"
-        android:background="@drawable/event_catagory_name_backgound"
+        android:background="@drawable/event_list_backgroound"
+        android:fontFamily="@font/dum2"
         android:gravity="center"
         android:text="Event Catagory"
-        android:textSize="30sp" />
+        android:textSize="30dp" />
 
 
 </RelativeLayout>

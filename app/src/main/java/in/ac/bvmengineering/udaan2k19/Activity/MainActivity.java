@@ -6,6 +6,8 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -16,17 +18,18 @@ import com.preference.PowerPreference;
 
 import java.util.Objects;
 
-import in.ac.bvmengineering.udaan2k19.Misc.Constant;
+import in.ac.bvmengineering.udaan2k19.Misc.CustomDialog;
 import in.ac.bvmengineering.udaan2k19.R;
 
 public class MainActivity extends AppCompatActivity {
-
+    Animation animation;
     Button eventList, profileButton, aboutButton;
     String TAG = getClass().getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        animation = AnimationUtils.loadAnimation(this, R.anim.button_animation);
         aboutButton = findViewById(R.id.about_button);
         eventList = findViewById(R.id.events_button);
         profileButton = findViewById(R.id.profile_button);
@@ -34,12 +37,14 @@ public class MainActivity extends AppCompatActivity {
         aboutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                v.startAnimation(animation);
                 startActivity(new Intent(getApplicationContext(), AboutActivity.class));
             }
         });
         eventList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                view.startAnimation(animation);
                 Intent intent = new Intent(MainActivity.this, EventCategoryActivity.class);
                 startActivity(intent);
             }
@@ -48,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
         profileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Constant.getComingSoonDialog(MainActivity.this, "You need to Log in with your phone number to access your profile").show();
+                v.startAnimation(animation);
+                CustomDialog customDialog = new CustomDialog(MainActivity.this, "Coming Soon", "You need to log in with your phone no and password to access your profile");
+                customDialog.show();
                 //startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
             }
         });
