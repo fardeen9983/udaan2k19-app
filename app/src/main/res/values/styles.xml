@@ -10,24 +10,6 @@
         <item name="android:fontFamily">@font/dum2</item>
     </style>
 
-    <style name="CustomActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/CustomeActionBarStyle</item>
-    </style>
-
-    <style name="CustomeActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/textbox</item>
-    </style>
-
-    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog">
-        <item name="android:windowAnimationStyle">@style/CustomDialogAnimation</item>
-        <item name="android:windowBackground">@color/colorPrimary</item>
-    </style>
-
-    <style name="CustomDialogAnimation">
-        <item name="android:windowEnterAnimation">@anim/dock_bottom_enter</item>
-        <item name="android:windowExitAnimation">@anim/dock_bottom_exit</item>
-    </style>
-
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

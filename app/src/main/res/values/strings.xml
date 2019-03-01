@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Udaan 19</string>
 
-    <string name="url_login">https://udaan19-events-api.herokuapp.com/users/login</string>
     <string name="phone_no">Mobile no</string>
     <string name="password">Password</string>
     <string name="login">LOGIN</string>
@@ -13,6 +12,7 @@
     <string name="insta_profile">https://www.instagram.com/teamudaan/</string>
     <string name="facebook_page">https://www.facebook.com/teamudaan19/</string>
     <string name="app_link">http://play.google.com/store/apps/details?id=</string>
+    <string name="gith_link">https://github.com/</string>
 
     <string name="cat_civil">Builders Of Azkaban</string>
     <string name="cat_cp_it">Chamber Of Coders</string>
@@ -21,16 +21,11 @@
     <string name="cat_ee">Order Of Ohms</string>
     <string name="cat_cultural">M.A.D Hollows</string>
     <string name="cat_mech_prod">AutoMotive Philosopher</string>
+    <string name="cat_workshop">GOBLET OF WORKSHOPS</string>
 
-    <string name="title_activity_about">AboutActivity</string>
-    <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_about_us_acivity">AboutUsAcivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
-    <string name="title_activity_main">MainActivity</string>
     <string name="about_bvm_text">We Birla Vishvakarma Mahavidyalaya(BVM) family take the pride of being the first engineering college in the state of Gujarat, founded in 1948 and inaugurated by last Viceroy of India \"Lord Mountbatten\".</string>
     <string name="about_udaan_text">UDAAN is not just an annual function but a celebration of what the students here are and about their aspirations and dreams. As the name defines it is a joint effort by each one to help provide the flight and wings to the bright ideas of young minds.</string>
     <string name="address">BVM Engineering College, Opp., Shastri Maidan, Mota Bazaar,Vallabh Vidhyanagar, Anand, Gujarat 388120, India</string>
+
+    <string name="share_text">Checkout BVM Udaan2k19\'s Android app!!! \nhttp://play.google.com/store/apps/details?id=in.ac.bvmengineering.udaan2k19</string>
 </resources>

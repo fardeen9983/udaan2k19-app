@@ -20,6 +20,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import in.ac.bvmengineering.udaan2k19.DataClass.Developer;
 import in.ac.bvmengineering.udaan2k19.DataClass.Event;
 import in.ac.bvmengineering.udaan2k19.DataClass.EventCategory;
 import in.ac.bvmengineering.udaan2k19.DataClass.Manager;
@@ -31,8 +32,8 @@ public class IntroActivity extends AppCompatActivity {
     final String TAG = getClass().getSimpleName();
     ImageView imageView;
     JSONArray json;
-    EventCategory builder, chamber, halfwave, scamander, mad, ohms, automative;
-
+    EventCategory builder, chamber, halfwave, scamander, mad, ohms, automative, workshop;
+    ArrayList<Developer> developers;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,6 +61,7 @@ public class IntroActivity extends AppCompatActivity {
                         HashMap<String, Event> events = new HashMap<>();
                         //serializing event details into objects
                         ArrayList<EventCategory> eventCategories = new ArrayList<>();
+                        workshop = new EventCategory(R.drawable.goblet_of_workshop, getString(R.string.cat_workshop));
                         builder = new EventCategory(R.drawable.builder_of_azkaban, getResources().getString(R.string.cat_civil));
                         chamber = new EventCategory(R.drawable.chamber_of_coders, getResources().getString(R.string.cat_cp_it));
                         halfwave = new EventCategory(R.drawable.half_wave_prince, getResources().getString(R.string.cat_ec_el));
@@ -85,7 +87,7 @@ public class IntroActivity extends AppCompatActivity {
                         is.close();
                         JSONObject head = new JSONObject(new String(buffer));
                         for (String string : Constant.EVENT_CATEGORIES) {
-                            if (string.equals(Constant.SCAMANDERS_SUITCASE))
+                            if (string.equals(Constant.SCAMANDERS_SUITCASE) || string.equals(Constant.GOBLET_OF_WORKSHOPS))
                                 continue;
                             JSONArray array = head.optJSONArray(string);
                             for (int i = 0; i < array.length(); i++) {
@@ -100,9 +102,43 @@ public class IntroActivity extends AppCompatActivity {
                         eventCategories.add(mad);
                         eventCategories.add(scamander);
                         eventCategories.add(ohms);
+                        eventCategories.add(workshop);
                         PowerPreference.getDefaultFile().put("eventCategories", eventCategories);
                         //storing event details
                         PowerPreference.getDefaultFile().put("events", events);
+
+                        developers = new ArrayList<>();
+                        is = getAssets().open("developer.json");
+                        buffer = new byte[is.available()];
+                        is.read(buffer);
+                        is.close();
+                        JSONObject temp = new JSONObject(new String(buffer));
+                        for (String string : Constant.DEVELOPERS) {
+                            JSONArray array = temp.optJSONArray(string);
+                            for (int i = 0; i < array.length(); i++) {
+                                Developer developer = new Gson().fromJson(array.optJSONObject(i).toString(), Developer.class);
+                                switch (string) {
+                                    case Constant.DEVELOPER_HEAD:
+                                        developer.setType(Constant.DEVELOPER_HEAD);
+                                        developer.setImageID(R.drawable.programming_icon);
+                                        break;
+                                    case Constant.ANDROID_DEVELOPER:
+                                        developer.setType(Constant.ANDROID_DEVELOPER);
+                                        developer.setImageID(R.drawable.android_developer_logo);
+                                        break;
+                                    case Constant.UI_DESIGNER:
+                                        developer.setType(Constant.UI_DESIGNER);
+                                        developer.setImageID(R.drawable.graphicsdesigner_icon);
+                                        break;
+                                    case Constant.WEB_DEVELOPER:
+                                        developer.setType(Constant.WEB_DEVELOPER);
+                                        developer.setImageID(R.drawable.programming_icon);
+                                        break;
+                                }
+                                developers.add(developer);
+                            }
+                        }
+                        PowerPreference.getDefaultFile().put("developers", developers);
                     } catch (IOException e) {
                         e.printStackTrace();
                     } catch (JSONException e) {
@@ -163,6 +199,9 @@ public class IntroActivity extends AppCompatActivity {
                 break;
             case 6:
                 ohms.getEvents().add(event);
+                break;
+            case 7:
+                workshop.getEvents().add(event);
                 break;
         }
     }

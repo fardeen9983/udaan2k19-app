@@ -15,8 +15,12 @@ public class Constant {
     public static final String GOBLET_OF_WORKSHOPS = "workshop";
     public static final String SCAMANDERS_SUITCASE = "non-tech";
     public static final String MAD_HOLLOWS = "cultural";
-    public static final String[] EVENT_CATEGORIES = new String[]{BUILDER_OF_AZKABAN, AUTOMOTIVE_PHILOSOPHER, CHAMBER_OF_CODERS, HALF_WAVE_PRINCE, MAD_HOLLOWS, SCAMANDERS_SUITCASE, ORDER_OF_OHMS};
-
+    public static final String ANDROID_DEVELOPER = "Android Developer";
+    public static final String DEVELOPER_HEAD = "Developer Head";
+    public static final String WEB_DEVELOPER = "Web Developer";
+    public static final String UI_DESIGNER = "UI Designer";
+    public static final String[] EVENT_CATEGORIES = {BUILDER_OF_AZKABAN, AUTOMOTIVE_PHILOSOPHER, CHAMBER_OF_CODERS, HALF_WAVE_PRINCE, MAD_HOLLOWS, SCAMANDERS_SUITCASE, ORDER_OF_OHMS, GOBLET_OF_WORKSHOPS};
+    public static final String[] DEVELOPERS = {DEVELOPER_HEAD, ANDROID_DEVELOPER, UI_DESIGNER, WEB_DEVELOPER};
     public static Animation getAnimation(Context context) {
         return AnimationUtils.loadAnimation(context, R.anim.button_animation);
     }

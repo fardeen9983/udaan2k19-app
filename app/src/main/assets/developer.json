@@ -1,0 +1,95 @@
+{
+  "Developer Head": [
+    {
+      "name": "Megharth Lakhataria",
+      "phone": "9429000091",
+      "github": "Megharth",
+      "mail": "megharthlakhtaria@gmail.com"
+    },
+    {
+      "name": "Rushi Rami",
+      "phone": "7069307537",
+      "github": "rushi7997",
+      "mail": "ramirushi7997@gmail.com"
+    }
+  ],
+  "Android Developer": [
+    {
+      "name": "Fardeen Khan",
+      "phone": "7069567007",
+      "github": "fardeen9983",
+      "mail": "khanfardeen9983@gmail.com"
+    },
+    {
+      "name": "Mitesh Makwana",
+      "phone": "8141738820",
+      "github": "Mitesh1999",
+      "mail": "mitesh121999@gmail.com"
+    },
+    {
+      "name": "Lav Hinsu",
+      "phone": "9824390810",
+      "github": "Lav-hinsu",
+      "mail": "hinsulav105@gmail.com"
+    },
+    {
+      "name": "Dhruvil Megha",
+      "phone": "8128116311",
+      "github": "dhruvil16",
+      "mail": "dhruvilmegha111@gmail.com"
+    }
+  ],
+  "UI Designer": [
+    {
+      "name": "Meet Patel",
+      "phone": "8155819402",
+      "github": "meetpatel5720",
+      "mail": "meet.r.patel2000@gmail.com"
+    }
+  ],
+  "Web Developer": [
+    {
+      "name": "Pranav Gajera",
+      "phone": "7984209358",
+      "github": "prnv28",
+      "mail": "pranavgajera1998@gmail.com"
+    },
+    {
+      "name": "Manas Gabani",
+      "phone": "8490067006",
+      "github": "GabaniManas",
+      "mail": "manasdineshgabani@gmail.com"
+    },
+    {
+      "name": "Purven Dudhaiya",
+      "phone": "8460149155",
+      "github": " purvendudhaiya",
+      "mail": "purvendudhaiyaprd@gmail.com"
+    },
+    {
+      "name": "Nikunj Vadodariya",
+      "phone": "9913551362",
+      "github": " nikunjvadodariya210903",
+      "mail": "kunjvadodariya210903@gmail.com"
+    },
+    {
+      "name": "Riddhi Nagrecha",
+      "Type": "Web Developer",
+      "phone": "8141489750",
+      "github": "RiddhiNagrecha",
+      "mail": "riddhinagrecha.rn@gmail.com"
+    },
+    {
+      "name": "Manav Prajapati",
+      "phone": "7984361284",
+      "github": "manav13",
+      "mail": "manavprajapati1398@gmail.com"
+    },
+    {
+      "name": "Rohan Borkhataria",
+      "phone": "9512519941",
+      "github": "Rony20",
+      "mail": "rohanborkhataria@gmail.com"
+    }
+  ]
+}

@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.util.Objects;
 
@@ -68,9 +67,12 @@ public class FragmentAbout extends Fragment {
         share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                Toast.makeText(getContext(), getString(R.string.app_link) + Objects.requireNonNull(getActivity()).getApplication().getPackageName(), Toast.LENGTH_LONG).show();
-                startActivity(i);
+                Intent intent2 = new Intent();
+                intent2.setAction(Intent.ACTION_SEND);
+                intent2.setType("text/plain");
+                intent2.putExtra(Intent.EXTRA_TEXT, Objects.requireNonNull(getContext()).getString(R.string.share_text));
+                startActivity(Intent.createChooser(intent2, "Share via"));
+
             }
         });
 

@@ -13,13 +13,13 @@
         android:layout_centerVertical="true"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:paddingStart="50dp"
+        android:paddingStart="35dp"
         android:paddingEnd="25dp"
         android:layout_marginStart="100dp"
         android:background="@drawable/event_catagory_name_backgound"
         android:gravity="center"
         android:text="Event Category"
-        android:textSize="38dp" />
+        android:textSize="32dp" />
 
     <ImageView
         android:id="@+id/event_catagory_image_left"

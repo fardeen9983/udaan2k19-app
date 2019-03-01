@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#012648</color>
     <color name="colorPrimaryDark">#030418</color>
     <color name="colorAccent">#755423</color>
     <color name="brown">#755423</color>
+    <color name="brownTransparent">#4A755423</color>
     <color name="brownLight">#9b6e2c</color>
     <color name="brownWhite">#e2d2b0</color>
     <color name="toolbar_text">#2E1D02</color>
+
 </resources>

@@ -2,6 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/developer_card_background"
     android:padding="10dp">
 
     <ImageView
@@ -9,7 +11,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerVertical="true"
-        android:layout_marginStart="10dp" />
+        android:layout_marginLeft="10dp" />
 
     <TextView
         android:id="@+id/developer_name"
@@ -17,11 +19,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/developer_icon"
-        android:gravity="end"
+        android:layout_marginEnd="10dp"
         android:text="Name"
+        android:gravity="right"
         android:textSize="30dp" />
 
     <TextView
+        android:layout_marginEnd="10dp"
         android:id="@+id/developer_type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,17 +36,17 @@
         android:text="Name"
         android:textSize="20dp" />
 
-    <ImageView
+    <Button
+        android:layout_marginEnd="10dp"
         android:id="@+id/mail"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_below="@id/developer_type"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="20dp"
         android:background="@drawable/mail_icon" />
 
-    <ImageView
+    <Button
         android:id="@+id/github"
         android:layout_width="45dp"
         android:layout_height="45dp"
@@ -52,7 +56,7 @@
         android:layout_toStartOf="@+id/mail"
         android:background="@drawable/ic_github" />
 
-    <ImageView
+    <Button
         android:id="@+id/dialer"
         android:layout_width="45dp"
         android:layout_height="45dp"
