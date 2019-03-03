@@ -7,6 +7,8 @@
     <string name="guest">GUEST</string>
     <string name="forgot_pass">Forgot Password?</string>
 
+    <string name="url_login">https://udaan19-events-api.herokuapp.com/users/login</string>
+
     <string name="youtube_channel">https://www.youtube.com/channel/UCnqRgS6O0MGF8sTYb_fHjWA</string>
     <string name="website">https://udaan19.in/#/</string>
     <string name="insta_profile">https://www.instagram.com/teamudaan/</string>
@@ -21,7 +23,7 @@
     <string name="cat_ee">Order Of Ohms</string>
     <string name="cat_cultural">M.A.D Hollows</string>
     <string name="cat_mech_prod">AutoMotive Philosopher</string>
-    <string name="cat_workshop">GOBLET OF WORKSHOPS</string>
+    <string name="cat_workshop">Goblet Of Workshops</string>
 
     <string name="about_bvm_text">We Birla Vishvakarma Mahavidyalaya(BVM) family take the pride of being the first engineering college in the state of Gujarat, founded in 1948 and inaugurated by last Viceroy of India \"Lord Mountbatten\".</string>
     <string name="about_udaan_text">UDAAN is not just an annual function but a celebration of what the students here are and about their aspirations and dreams. As the name defines it is a joint effort by each one to help provide the flight and wings to the bright ideas of young minds.</string>

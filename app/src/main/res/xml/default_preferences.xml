@@ -5,11 +5,23 @@
         <value>false</value>
     </entry>
     <entry>
-        <kry>token</kry>
+        <key>token</key>
         <value>Empty</value>
     </entry>
     <entry>
+        <key>authToken</key>
+        <value>null</value>
+    </entry>
+    <entry>
         <key>events</key>
-        <key>null</key>
+        <value>null</value>
+    </entry>
+    <entry>
+        <key>first_time</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>phone</key>
+        <value>null</value>
     </entry>
 </defaultMap>

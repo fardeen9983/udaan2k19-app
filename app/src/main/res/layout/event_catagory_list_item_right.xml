@@ -9,7 +9,6 @@
 
     <TextView
         android:fontFamily="@font/harryp"
-
         android:id="@+id/event_catagory_name_right"
         android:layout_alignParentStart="true"
         android:layout_width="match_parent"
@@ -21,7 +20,7 @@
         android:background="@drawable/event_catagory_name_backgound"
         android:gravity="center"
         android:text="Event Category"
-        android:textSize="28dp" />
+        android:textSize="32dp" />
 
     <ImageView
         android:id="@+id/event_catagory_image_right"
