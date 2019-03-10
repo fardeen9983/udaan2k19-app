@@ -47,9 +47,9 @@ public class PhoneAuthActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_phone_auth);
-        signIn = findViewById(R.id.verify);
-        code = findViewById(R.id.verification_code);
+        setContentView(R.layout.activity_verification);
+        signIn = findViewById(R.id.submit_otp);
+        code = findViewById(R.id.otp);
         mAuth = FirebaseAuth.getInstance();
         if (getIntent() != null) {
             phone = getIntent().getStringExtra("phone");

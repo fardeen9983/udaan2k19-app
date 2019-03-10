@@ -39,7 +39,6 @@ class LoadFromJSON : AsyncTask<Context, Void, Void>() {
             input.close()
             val json = JSONArray(String(buffer))
             Log.v(TAG, json.toString())
-            val events = HashMap<String, Event>()
             //serializing event details into objects
             val eventCategories = ArrayList<EventCategory>()
             workshop = EventCategory(R.drawable.goblet_of_workshop, context.getString(R.string.cat_workshop))

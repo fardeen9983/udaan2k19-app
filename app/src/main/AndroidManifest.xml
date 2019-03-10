@@ -4,8 +4,10 @@
     package="in.ac.bvmengineering.udaan2k19">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -16,15 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Activity.ARFilterActivity"></activity>
         <activity
-            android:name=".Activity.PhoneAuthActivity"
+            android:name=".Activity.ARCameraActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activity.LoginActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activity.ForgotPassword"
+            android:name=".Activity.ARFilterActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.IntroActivity"
@@ -39,9 +37,21 @@
             android:name=".Activity.AboutActivity"
             android:label="About"
             android:screenOrientation="portrait" />
-        <activity android:name=".Activity.MainActivity" />
-        <activity android:name=".Activity.EventActivity" />
-        <activity android:name=".Activity.ProfileActivity" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EventActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".Activity.PhoneAuthActivity" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -52,13 +62,11 @@
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
 
-
         <service android:name=".Service.FirebaseMsgService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
     </application>
 
 </manifest>

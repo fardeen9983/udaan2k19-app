@@ -4691,7 +4691,12 @@
     "entryFee": 20,
     "eventName": "View Finder ",
     "eventType": "non-tech",
-    "managers": [],
+    "managers": [
+      {
+        "name": "Jay Katakiya",
+        "phone": "8849548865"
+      }
+    ],
     "rounds": [
       "Topics: (1) colourful life (2) shadow (3) work is worship",
       "On the spot round "
@@ -4841,7 +4846,7 @@
       }
     ],
     "rounds": [
-      "Do you find yourself wanting to be equipped with skills to build a new-age technology device that is finding application across sectors ranging from military to entertainment?\\nDrones have always awed people and wouldn't it be cooler if you knew to build one?\\nRegister for our workshop where you can learn how to build a drone from scratch and embrace the drone paradigm that is taking over the world, quite literally!\\nSession 1: Basic knowledge about Drones, there working and technical connections\\nSession 2: Hands on, on kits of the expert."
+      "Do you find yourself wanting to be equipped with skills to build a new-age technology device that is finding application across sectors ranging from military to entertainment?\nDrones have always awed people and wouldn't it be cooler if you knew to build one?\nRegister for our workshop where you can learn how to build a drone from scratch and embrace the drone paradigm that is taking over the world, quite literally!\nSession 1: Basic knowledge about Drones, there working and technical connections\nSession 2: Hands on, on kits of the expert."
     ],
     "tagline": "Hands on workshop",
     "teamSize": 1,
