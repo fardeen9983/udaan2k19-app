@@ -15,6 +15,7 @@ class ProfileActivity : AppCompatActivity() {
         setContentView(R.layout.activity_profile)
         val participant = PowerPreference.getDefaultFile().getObject("participant", Participant::class.java) as Participant
         registered_event_list.layoutManager = LinearLayoutManager(this)
+
 //        registered_event_list.adapter = EventListAdapter(this, participant.events!!, object : OnEventClickListener {
 //            override fun onEventClick(event: Event) {
 //            }

@@ -7,7 +7,6 @@ import `in`.ac.bvmengineering.udaan2k19.DataClass.EventCategory
 import `in`.ac.bvmengineering.udaan2k19.Interface.OnEventClickListener
 import `in`.ac.bvmengineering.udaan2k19.R
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
@@ -15,7 +14,11 @@ import android.view.ViewGroup
 import kotlinx.android.synthetic.main.fragment_event_list.*
 import kotlinx.android.synthetic.main.tool_bar.*
 
-class EventListFragment : Fragment() {
+class EventListFragment : FragmentThatCanRespondToBack() {
+    override fun onBackPressed(): Boolean {
+        activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.event_frame, EventCategoryFragment())?.commitNow()
+        return true
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_event_list, container, false)

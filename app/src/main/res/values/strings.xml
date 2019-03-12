@@ -8,6 +8,7 @@
     <string name="forgot_pass">Forgot Password?</string>
 
     <string name="url_login">https://udaan19-events-api.herokuapp.com/users/login</string>
+    <string name="url_get">https://udaan19-messenger-api.herokuapp.com/get</string>
 
     <string name="youtube_channel">https://www.youtube.com/channel/UCnqRgS6O0MGF8sTYb_fHjWA</string>
     <string name="website">https://udaan19.in/#/</string>

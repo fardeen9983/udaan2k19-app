@@ -27,6 +27,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:autoLink="web"
             android:id="@+id/round_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -5,7 +5,6 @@ import `in`.ac.bvmengineering.udaan2k19.DataClass.EventCategory
 import `in`.ac.bvmengineering.udaan2k19.Interface.OnCategoryItemClickListener
 import `in`.ac.bvmengineering.udaan2k19.R
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
@@ -14,7 +13,11 @@ import com.preference.PowerPreference
 import kotlinx.android.synthetic.main.fragment_event_category.*
 import kotlinx.android.synthetic.main.tool_bar.*
 
-class EventCategoryFragment : Fragment() {
+class EventCategoryFragment : FragmentThatCanRespondToBack() {
+    override fun onBackPressed(): Boolean {
+        return false
+    }
+
     private var eventCategoryArrayList = ArrayList<EventCategory>()
     private lateinit var eventCategoryAdapter: EventCategoryAdapter
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -43,4 +46,5 @@ class EventCategoryFragment : Fragment() {
         })
         event_catagory_list.adapter = eventCategoryAdapter
     }
+
 }
